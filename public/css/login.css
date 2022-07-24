@@ -1,0 +1,6 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../img/others/sierras_cordobesas_02.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}

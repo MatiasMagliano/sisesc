@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+#showcase {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../img/landing/sierras_cordobesas_01.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    color: #ffc18a;
+    text-transform: uppercase;
+    font-size: 5em;
+    line-height: 1.3;
+}
+
+#showcase p {
+    color: white;
+    font-size: 3em;
+}
+
+#showcase a {
+    background: #0984e3;
+    padding: 11px 23px;
+    margin-top: 35px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    border-radius: 21px;
+}
+
+@media only screen and (max-width: 768px) {
+    #showcase h1 {
+        font-size: 3em;
+        line-height: 1.1;
+    }
+
+    #showcase p {
+        font-size: 1em;
+    }
+}
