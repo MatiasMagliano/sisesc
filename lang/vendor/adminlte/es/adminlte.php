@@ -14,7 +14,7 @@ return [
     'sign_in'                     => 'Acceder',
     'log_out'                     => 'Salir',
     'toggle_navigation'           => 'Alternar barra de navegación',
-    'login_message'               => 'Autenticarse para iniciar sesión',
+    'login_message'               => 'Ingrese su correo electrónico y contraseña',
     'register_message'            => 'Crear una nueva cuenta',
     'password_reset_message'      => 'Restablecer la contraseña',
     'reset_password'              => 'Restablecer la contraseña',

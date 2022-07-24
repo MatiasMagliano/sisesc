@@ -183,6 +183,11 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
+         * AGREGADO SPATIE - roles y permisos
+         */
+        Spatie\Permission\PermissionServiceProvider::class,
+
+        /*
          * Package Service Providers...
          */
 

@@ -17,8 +17,8 @@
 <body>
     <header id="showcase">
         <h1>Bienvenido</h1>
-        <p>- Sis<b>ESC</b> -</p>
-        <a href="{{ route('login') }}">Ingresar</a>
+        <p></p>
+        <a href="{{ route('login') }}">Ingresar a Sis<b>ESC</b></a>
     </header>
 
     <section id="texto">
