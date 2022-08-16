@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\UsuariosController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -21,3 +22,12 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+/*
+ * RUTAS DE ADMINISTRADOR CON SPATIE
+ */
+Route::group(['middleware' => ['role:admin']], function() {
+    Route::prefix('admin')->name('admin.')->group(function() {
+        Route::resource('/usuarios', UsuariosController::class);
+    });
+});

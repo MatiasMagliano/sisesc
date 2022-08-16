@@ -1,0 +1,58 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\User;
+use Carbon\Carbon;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Hash;
+use Spatie\Permission\Models\Permission;
+use Spatie\Permission\Models\Role;
+use Spatie\Permission\PermissionRegistrar;
+
+class UsuariosSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        app()[PermissionRegistrar::class]->forgetCachedPermissions();
+
+        // ROL DE ADMINISTRADOR - utiliza un GATE definido en AuthServiceProvider
+        $role1 = Role::create(['name' => 'admin']);
+        $usuario = User::factory()->create([
+            'name'                  => 'Matías Magliano',
+            'email'                 => 'matias.magliano@mi.unc.edu.ar',
+            'email_verified_at'     => now(),
+            'password'              => Hash::make('bxXAX4z8D3kZ62i'),
+            'remember_token'        => Str::random(10),
+        ]);
+        $usuario->assignRole($role1);
+
+
+
+
+        // ROL DE PRECEPTOR
+        Permission::create(['name' => 'menu-preceptor']);
+        Permission::create(['name' => 'tomar asistencia']);
+
+        $role2 = Role::create(['name' => 'preceptor']);
+        $role2->givePermissionTo('menu-preceptor');
+        $role2->givePermissionTo('tomar asistencia');
+
+        // se crean usuarios y roles a los que se le asignan permisos existentes
+        $usuario2 = User::factory()->create([
+            'name'                  => 'Mabel Cortez',
+            'email'                 => 'mabel.cortez@example.com',
+            'email_verified_at'     => now(),
+            'password'              => Hash::make('mcortez'),
+            'remember_token'        => Str::random(10),
+        ]);
+        $usuario2->assignRole($role2);
+    }
+}

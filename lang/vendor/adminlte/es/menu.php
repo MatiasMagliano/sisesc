@@ -2,11 +2,14 @@
 
 return [
 
+    'attendance'                    => 'Asistencia',
+    'administrator'                 => 'Administrador',
     'main_navigation'               => 'MENU PRINCIPAL',
     'blog'                          => 'Blog',
     'pages'                         => 'Páginas',
     'account_settings'              => 'AJUSTES DE LA CUENTA',
-    'profile'                       => 'Perfil',
+    'preceptor'                     => 'Preceptoría',
+    'profile'                       => 'Área personal',
     'change_password'               => 'Cambiar Contraseña',
     'multilevel'                    => 'Multi Nivel',
     'level_one'                     => 'Nivel 1',
@@ -14,6 +17,9 @@ return [
     'level_three'                   => 'Nivel 3',
     'labels'                        => 'ETIQUETAS',
     'important'                     => 'Importante',
+    'roles'                         => 'Roles',
+    'students'                      => 'Estudiantes',
+    'users'                         => 'Usuarios',
     'warning'                       => 'Advertencia',
     'information'                   => 'Información',
 ];

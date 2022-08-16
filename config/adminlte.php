@@ -102,8 +102,8 @@ return [
     |
     */
 
-    'classes_auth_card' => 'card-outline card-primary',
-    'classes_auth_header' => '',
+    'classes_auth_card' => 'card-primary',
+    'classes_auth_header' => 'bg-gradient-secondary',
     'classes_auth_body' => '',
     'classes_auth_footer' => '',
     'classes_auth_icon' => '',
@@ -146,7 +146,7 @@ return [
     */
 
     'sidebar_mini' => 'lg',
-    'sidebar_collapse' => false,
+    'sidebar_collapse' => true,
     'sidebar_collapse_auto_size' => false,
     'sidebar_collapse_remember' => false,
     'sidebar_collapse_remember_no_transition' => true,
@@ -242,16 +242,48 @@ return [
             'text' => 'search',
         ],
         [
-            'text' => 'blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
-        ],
-        [
             'text'        => 'pages',
             'url'         => 'admin/pages',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 4,
             'label_color' => 'success',
+            'can'         => 'admin'
+        ],
+
+        /* MENU ADMINISTRADOR */
+        [
+            'text'  => 'administrator',
+            'icon'  => 'fas fa-cog',
+            'can'   => 'admin',
+            'submenu' => [
+                [
+                    'text'       => 'users',
+                    'icon_color' => 'cyan',
+                    'route'      => 'admin.usuarios.index'
+                ],
+                [
+                    'text'       => 'roles',
+                    'icon_color' => 'cyan',
+                ],
+            ],
+        ],
+
+        /* MENU PRECEPTOR */
+        [
+            'text'  => 'preceptor',
+            'icon'  => 'fas fa-graduation-cap',
+            'can'   => 'menu-preceptor',
+            'submenu' => [
+                [
+                    'text'       => 'students',
+                    'icon_color' => 'cyan',
+                ],
+                [
+                    'text'       => 'asistencia',
+                    'icon_color' => 'cyan',
+                    'can'        => 'tomar asistencia'
+                ],
+            ],
         ],
         ['header' => 'account_settings'],
         [
@@ -264,60 +296,7 @@ return [
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
         ],
-        [
-            'text'    => 'multilevel',
-            'icon'    => 'fas fa-fw fa-share',
-            'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-                [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-            ],
-        ],
-        ['header' => 'labels'],
-        [
-            'text'       => 'important',
-            'icon_color' => 'red',
-            'url'        => '#',
-        ],
-        [
-            'text'       => 'warning',
-            'icon_color' => 'yellow',
-            'url'        => '#',
-        ],
-        [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
-            'url'        => '#',
-        ],
+
     ],
 
     /*
