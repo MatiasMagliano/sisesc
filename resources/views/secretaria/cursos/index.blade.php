@@ -32,7 +32,31 @@
                             <div id="collapse-{{ $curso->id }}" class="collapse {{ $loop->first ? 'show' : '' }}"
                                 aria-labelledby="heading-{{ $curso->id }}" data-parent="#acordionMenu">
                                 <div class="card-body">
-                                    MENU
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="{{route('secretaria.cursos.show', ['curso' => $curso])}}" class="text-info">Ver curso</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-info">Modificar curso</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-info">Eliminar curso</a>
+                                        </li>
+                                    </ul>
+                                    <br>
+                                    <h5>Operaciones con estudiantes</h5>
+                                    <hr>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="text-info">Agregar estudiantes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-info">Modificar estudiantes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-info">Eliminar estudiantes</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

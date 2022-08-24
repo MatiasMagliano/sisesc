@@ -13,4 +13,9 @@ class CursoController extends Controller
 
         return view('secretaria.cursos.index', compact('cursos'));
     }
+
+    public function show(Curso $curso)
+    {
+        return view('secretaria.cursos.show', compact('curso'));
+    }
 }

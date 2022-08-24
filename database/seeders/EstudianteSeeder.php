@@ -30,7 +30,7 @@ class EstudianteSeeder extends Seeder
             for ($i = 0; $i < $estudiantes_curso; $i++) {
                 // SE CREA UN ESTUDIANTE y sus PADRES
                 $estudiante = Estudiante::factory()->create([
-                    'fecha_nacimiento'  => $this->faker->dateTimeBetween('-'. 11+$j .' years', '-'. 12-$j .' years')
+                    'fecha_nacimiento'  => $this->faker->dateTimeBetween('-'. 12+$j .' years', '-'. 10+$j .' years')
                 ]);
                 Contacto::factory()->create([
                     'contactable_id'    => $estudiante->id,
