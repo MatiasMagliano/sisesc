@@ -17,7 +17,7 @@ class FamiliaFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'miembros' => rand(3, 8),
         ];
     }
 }

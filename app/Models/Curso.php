@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
+class Curso extends Model
+{
+    use SoftDeletes;
+
+    protected $table = 'cursos';
+
+    protected $fillable = [
+        'estudiante_id',
+        'docente_id',
+        'materia_id',
+        'codigo_curso',
+        'nombre_curso',
+    ];
+}

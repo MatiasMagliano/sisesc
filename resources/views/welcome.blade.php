@@ -16,16 +16,10 @@
 
 <body>
     <header id="showcase">
-        <h1>Bienvenido</h1>
+        <h1>SisESC</h1>
         <p></p>
-        <a href="{{ route('login') }}">Ingresar a Sis<b>ESC</b></a>
+        <a href="{{ route('login') }}">Ingresar</a>
     </header>
-
-    <section id="texto">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptas esse? Autem laborum adipisci dolorem
-            placeat. Fuga error corporis molestiae vero! Nesciunt magni voluptatibus doloremque! Dolorem cupiditate
-            recusandae sunt officia?</p>
-    </section>
 </body>
 
 </html>

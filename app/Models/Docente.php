@@ -6,9 +6,11 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Estudiante extends Model
+class Docente extends Model
 {
     use HasFactory, SoftDeletes;
+
+    protected $table = 'docentes';
 
     protected $fillable = [
         'dni',

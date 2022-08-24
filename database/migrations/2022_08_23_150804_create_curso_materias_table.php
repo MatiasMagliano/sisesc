@@ -1,6 +1,7 @@
 <?php
 
-use App\Models\Genero;
+use App\Models\Curso;
+use App\Models\Materia;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -14,13 +15,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('estudiantes', function (Blueprint $table) {
+        Schema::create('curso_materias', function (Blueprint $table) {
             $table->id();
-            $table->string('dni', 10);
-            $table->string('nombres', 50);
-            $table->string('apellidos', 50);
-            $table->date('fecha_nacimiento');
-            $table->foreignIdFor(Genero::class)->constrained();
+            $table->foreignIdFor(Materia::class)->constrained()->onDelete('cascade');
+            $table->foreignIdFor(Curso::class)->constrained()->onDelete('cascade');
             $table->timestamps();
             $table->softDeletes();
         });
@@ -33,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('estudiantes');
+        Schema::dropIfExists('curso_materias');
     }
 };

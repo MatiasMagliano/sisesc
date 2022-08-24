@@ -1,0 +1,2738 @@
+[
+ {
+   "codigo_junta": "40",
+   "nombre_materia": "BIOLOGÍA"
+ },
+ {
+   "codigo_junta": "131",
+   "nombre_materia": "EDUCACIÓN FÍSICA"
+ },
+ {
+   "codigo_junta": "186",
+   "nombre_materia": "FILOSOFÍA"
+ },
+ {
+   "codigo_junta": "193",
+   "nombre_materia": "FÍSICA"
+ },
+ {
+   "codigo_junta": "214",
+   "nombre_materia": "GEOGRAFÍA"
+ },
+ {
+   "codigo_junta": "237",
+   "nombre_materia": "HISTORIA"
+ },
+ {
+   "codigo_junta": "256",
+   "nombre_materia": "INGLÉS"
+ },
+ {
+   "codigo_junta": "320",
+   "nombre_materia": "MATEMÁTICA"
+ },
+ {
+   "codigo_junta": "402",
+   "nombre_materia": "SOCIOLOGÍA"
+ },
+ {
+   "codigo_junta": "435",
+   "nombre_materia": "PSICOLOGÍA"
+ },
+ {
+   "codigo_junta": "462",
+   "nombre_materia": "QUÍMICA"
+ },
+ {
+   "codigo_junta": "656",
+   "nombre_materia": "LENGUA Y LITERATURA"
+ },
+ {
+   "codigo_junta": "1179",
+   "nombre_materia": "ITALIANO"
+ },
+ {
+   "codigo_junta": "1196",
+   "nombre_materia": "DIBUJO TÉCNICO"
+ },
+ {
+   "codigo_junta": "1197",
+   "nombre_materia": "LABORATORIO DE INFORMATICA"
+ },
+ {
+   "codigo_junta": "1595",
+   "nombre_materia": "EDUCACIÓN TECNOLÓGICA"
+ },
+ {
+   "codigo_junta": "2000",
+   "nombre_materia": "CIENCIAS SOCIALES/CS. SOCIALES-GEOGRAFÍA/CS. SOCIALES-HISTORIA/CIUDADANÍA Y POLÍTICA-HUMANIDADES"
+ },
+ {
+   "codigo_junta": "2001",
+   "nombre_materia": "CIENCIAS SOCIALES-GEOGRAFÍA/CIENCIAS SOCIALES-HISTORIA/CIUDADANÍA Y POLÍTICA-HUMANIDADES"
+ },
+ {
+   "codigo_junta": "2002",
+   "nombre_materia": "ESTRAT. DE COM. Y RELAC. PÚBLICAS/TUR. Y DES. SUSTENTABLE/FORMACIÓN PARA LA VIDA Y EL TRAB. - TURISMO"
+ },
+ {
+   "codigo_junta": "2003",
+   "nombre_materia": "ORGANIZACIÓN DE EVENTOS/TURISMO Y DES. SUSTENTABLE/FORMACIÓN PARA LA VIDA Y EL TRABAJO - TURISMO"
+ },
+ {
+   "codigo_junta": "2004",
+   "nombre_materia": "ESTRAT. DE COM. Y RELAC. PÚBL./TECN. DE LA INFOR. Y LA COMUNIC./FORM. PARA LA V. Y EL TRAB. - TUR."
+ },
+ {
+   "codigo_junta": "2005",
+   "nombre_materia": "PRODUCCIÓN ANIMAL/PRODUCCIÓN VEGETAL/FORMACIÓN PARA LA VIDA Y EL TRABAJO - AGRO Y AMBIENTE"
+ },
+ {
+   "codigo_junta": "2006",
+   "nombre_materia": "INDUSTRIALIZACIÓN/PRODUCCIÓN VEGETAL/FORMACIÓN PARA LA VIDA Y EL TRABAJO - AGRO Y AMBIENTE"
+ },
+ {
+   "codigo_junta": "2007",
+   "nombre_materia": "INDUSTRIALIZACIÓN/TECN. DE LA INF. Y LA COM./FORMACIÓN PARA LA VIDA Y EL TRABAJO - AGRO Y AMBIENTE"
+ },
+ {
+   "codigo_junta": "2010",
+   "nombre_materia": "INFORMÁTICA APLICADA/TECNOLOGÍA DE IMÁGENES/FORMACIÓN PARA LA VIDA Y EL TRABAJO - INFORMÁTICA"
+ },
+ {
+   "codigo_junta": "2011",
+   "nombre_materia": "REDES DIGITALES DE INFOR./TÉC. Y LENGUAJES DE PROG./FOR. PARA LA VIDA Y EL TRABAJO - INFOR."
+ },
+ {
+   "codigo_junta": "2012",
+   "nombre_materia": "TÉCNICAS Y LENGUAJES DE PROG./TEC. DE IMÁGENES/FOR. PARA LA VIDA Y EL TRABAJO - INFORMÁTICA"
+ },
+ {
+   "codigo_junta": "2013",
+   "nombre_materia": "BASE DE DATOS/TÉCNICAS Y LENGUAJES DE PROG./FOR. PARA LA VIDA Y EL TRABAJO - INFORMÁTICA"
+ },
+ {
+   "codigo_junta": "2014",
+   "nombre_materia": "ADMINIS. DE LA PROD. Y COMER./ECONOMÍA Y DES. SUST./FOR. PARA LA VIDA Y EL TRAB. - ECONOMÍA Y AD."
+ },
+ {
+   "codigo_junta": "2015",
+   "nombre_materia": "ADMINISTRACIÓN DE RECURSOS HUM./ECON. Y DES. SUST./FORM. PARA LA VIDA Y EL TRAB. - ECO. Y ADMINIS."
+ },
+ {
+   "codigo_junta": "2016",
+   "nombre_materia": "ADMINIS. DE LA PRODUC. Y COMER./ADMINIS. DE REC. HUM./FOR. PARA LA VIDA Y EL TRAB. - ECO. Y ADMINIS."
+ },
+ {
+   "codigo_junta": "2017",
+   "nombre_materia": "ECONOMÍA Y DESARROLLO SUST./TEC. DE LA INFOR. Y LA COM./FOR. PARA LA VIDA Y EL TRAB. - ECO. Y ADMINIS."
+ },
+ {
+   "codigo_junta": "2018",
+   "nombre_materia": "ADMINISTRACIÓN FINANCIERA/ADMINIS. DE REC. HUM./FOR. PARA LA VIDA Y EL TRAB. - ECO. Y ADMINIS. "
+ },
+ {
+   "codigo_junta": "2021",
+   "nombre_materia": "LENGUA ADICIONAL - INGLÉS"
+ },
+ {
+   "codigo_junta": "2131",
+   "nombre_materia": "CIENCIAS NATURALES/CIENCIAS NATURALES - BIOLOGÍA/CIENCIAS NATURALES - FÍSICA/CIENCIAS NATURALES - QUÍMICA"
+ },
+ {
+   "codigo_junta": "2229",
+   "nombre_materia": "CIENCIAS NATURALES - BIOLOGÍA/CIENCIAS NATURALES - FÍSICA/CIENCIAS NATURALES - QUÍMICA"
+ },
+ {
+   "codigo_junta": "2256",
+   "nombre_materia": "INDUSTRIALIZACIÓN/PRODUCCIÓN ANIMAL/FORMACIÓN PARA LA VIDA Y EL TRABAJO - AGRO Y AMBIENTE"
+ },
+ {
+   "codigo_junta": "2258",
+   "nombre_materia": "INFORM. APLICADA AL SECTOR AGROP. Y AGROINDUSTRIAL/TECN. DE LA INFORM. Y LA COMUN./FORM. PARA LA VIDA Y EL TRABAJO - AGRO Y AMBIENTE"
+ },
+ {
+   "codigo_junta": "2263",
+   "nombre_materia": "INFORMÁTICA APLICADA AL SECTOR AGROPECUARIO Y AGROINDUSTRIAL"
+ },
+ {
+   "codigo_junta": "2264",
+   "nombre_materia": "CIENCIAS SOCIALES/CIENCIAS SOCIALES - HISTORIA/HISTORIA/CIUDADANÍA Y POLÍTICA - SOCIOLOGÍA"
+ },
+ {
+   "codigo_junta": "2267",
+   "nombre_materia": "CIENCIAS SOCIALES - HISTORIA/HISTORIA/CIUDADANÍA Y POLÍTICA - SOCIOLOGÍA"
+ },
+ {
+   "codigo_junta": "2305",
+   "nombre_materia": "CIUDADANÍA Y POLÍTICA - SOCIOLOGÍA"
+ },
+ {
+   "codigo_junta": "2306",
+   "nombre_materia": "BASES DE DATOS/INFORM. APLICADA AL SECTOR AGROP. Y AGROINDUSTRIAL/FORMACIÓN PARA LA VIDA Y EL TRABAJO - INFORMÁTICA"
+ },
+ {
+   "codigo_junta": "2310",
+   "nombre_materia": "TECNOL. DE LA INFORM. Y LA COMUN./TURISMO Y DESARROLLO SUSTENTABLE/FORMACIÓN PARA LA VIDA Y EL TRABAJO - TURISMO"
+ },
+ {
+   "codigo_junta": "2312",
+   "nombre_materia": "INFORM. APLICADA AL SECTOR AGROP. Y AGROINDUSTRIAL/TECNOL. DE IMÁGENES/FORM. PARA LA VIDA Y EL TRABAJO - INFORMÁTICA"
+ },
+ {
+   "codigo_junta": "2322",
+   "nombre_materia": "ACTIVIDAD CORAL"
+ },
+ {
+   "codigo_junta": "2501",
+   "nombre_materia": "LENGUA EXTRANJERA - INGLES"
+ },
+ {
+   "codigo_junta": "2511",
+   "nombre_materia": "BIOTECNOLOGÍA"
+ },
+ {
+   "codigo_junta": "2512",
+   "nombre_materia": "DERECHO"
+ },
+ {
+   "codigo_junta": "2516",
+   "nombre_materia": "ANTROPOLOGÍA SOCIALCULTURAL - PSICOLOGÍA - FILOSOFÍA"
+ },
+ {
+   "codigo_junta": "2517",
+   "nombre_materia": "ACTIVIDAD FÍSICA, SALUD Y CALIDAD DE VIDA"
+ },
+ {
+   "codigo_junta": "2519",
+   "nombre_materia": "ALFABETIZACIÓN DIGITAL"
+ },
+ {
+   "codigo_junta": "2520",
+   "nombre_materia": "AMBIENTE, DESARROLLO Y SOCIEDAD"
+ },
+ {
+   "codigo_junta": "2521",
+   "nombre_materia": "ARTE Y COMUNICACIÓN"
+ },
+ {
+   "codigo_junta": "2522",
+   "nombre_materia": "BIOLOGÍA - C.O. CIENCIAS NATURALES"
+ },
+ {
+   "codigo_junta": "2523",
+   "nombre_materia": "CIENCIA Y COMUNICACIÓN"
+ },
+ {
+   "codigo_junta": "2524",
+   "nombre_materia": "CIENCIA, TECNOLOGÍA Y ÉTICA"
+ },
+ {
+   "codigo_junta": "2525",
+   "nombre_materia": "COMERCIALIZACIÓN Y PUBLICIDAD"
+ },
+ {
+   "codigo_junta": "2527",
+   "nombre_materia": "COMUNICACIÓN AUDIOVISUAL"
+ },
+ {
+   "codigo_junta": "2528",
+   "nombre_materia": "COMUNICACIÓN INSTITUCIONAL Y COMUNITARIA"
+ },
+ {
+   "codigo_junta": "2531",
+   "nombre_materia": "DESARROLLO DE CONTENIDOS DIGITALES Y APLICACIONES EN LÍNEA"
+ },
+ {
+   "codigo_junta": "2532",
+   "nombre_materia": "E.O.I. AMBIENTE, DESARROLLO Y SOCIEDAD"
+ },
+ {
+   "codigo_junta": "2535",
+   "nombre_materia": "E.O.I. BASES DE DATOS"
+ },
+ {
+   "codigo_junta": "2536",
+   "nombre_materia": "E.O.I. INFORMÁTICA APLICADA"
+ },
+ {
+   "codigo_junta": "2537",
+   "nombre_materia": "ECOLOGÍA"
+ },
+ {
+   "codigo_junta": "2538",
+   "nombre_materia": "EDUCACIÓN FÍSICA Y AMBIENTE"
+ },
+ {
+   "codigo_junta": "2539",
+   "nombre_materia": "EDUCACIÓN PARA LA SALUD"
+ },
+ {
+   "codigo_junta": "2540",
+   "nombre_materia": "EMPRENDIMIENTOS EN MEDIOS"
+ },
+ {
+   "codigo_junta": "2541",
+   "nombre_materia": "ESTRATEGIAS DE COMUNICACIÓN Y RELACIONES PÚBLICAS"
+ },
+ {
+   "codigo_junta": "2546",
+   "nombre_materia": "ESTUDIOS INTERCULTURALES EN LENGUAS"
+ },
+ {
+   "codigo_junta": "2547",
+   "nombre_materia": "FÍSICA - C.O. CIENCIAS NATURALES"
+ },
+ {
+   "codigo_junta": "2548",
+   "nombre_materia": "FÍSICA Y ASTRONOMÍA"
+ },
+ {
+   "codigo_junta": "2554",
+   "nombre_materia": "AMBIENTE, DESARROLLO Y SOCIEDAD - ECONOMÍA Y GESTIÓN AGROAMBIENTAL - BIOTECNOLOGÍA"
+ },
+ {
+   "codigo_junta": "2555",
+   "nombre_materia": "ALFABETIZACIÓN DIGITAL - DESARROLLO DE SOLUCIONES INFORMÁTICAS"
+ },
+ {
+   "codigo_junta": "2557",
+   "nombre_materia": "AMBIENTE, DESARROLLO Y SOCIEDAD (EDUCACIÓN RURAL)"
+ },
+ {
+   "codigo_junta": "2558",
+   "nombre_materia": "ADMINISTRACIÓN/ECONOMÍA/DERECHO"
+ },
+ {
+   "codigo_junta": "2559",
+   "nombre_materia": "CIENCIAS SOCIALES - GEOGRAFÍA/GEOGRAFÍA/ECONOMÍA POLÍTICA"
+ },
+ {
+   "codigo_junta": "2683",
+   "nombre_materia": "ANTROPOLOGÍA SOCIAL Y CULTURAL"
+ },
+ {
+   "codigo_junta": "2684",
+   "nombre_materia": "PRÁCTICA DEPORTIVA"
+ },
+ {
+   "codigo_junta": "2685",
+   "nombre_materia": "PRÁCTICA GIMNÁSTICA Y EXPRESIVA "
+ },
+ {
+   "codigo_junta": "2686",
+   "nombre_materia": "LENGUAJE TEATRAL "
+ },
+ {
+   "codigo_junta": "2687",
+   "nombre_materia": "PRODUCCIÓN TEATRAL "
+ },
+ {
+   "codigo_junta": "2688",
+   "nombre_materia": "LENGUAJE MUSICAL "
+ },
+ {
+   "codigo_junta": "2689",
+   "nombre_materia": "PRODUCCIÓN MUSICAL "
+ },
+ {
+   "codigo_junta": "2690",
+   "nombre_materia": "LENGUAJE DE LA DANZA"
+ },
+ {
+   "codigo_junta": "2691",
+   "nombre_materia": "PRODUCCIÓN EN DANZA "
+ },
+ {
+   "codigo_junta": "2692",
+   "nombre_materia": "LENGUAJE DE LAS ARTES VISUALES"
+ },
+ {
+   "codigo_junta": "2693",
+   "nombre_materia": "PRODUCCIÓN EN ARTES VISUALES "
+ },
+ {
+   "codigo_junta": "2694",
+   "nombre_materia": "COMUNICACIÓN, CULTURA Y SOCIEDAD"
+ },
+ {
+   "codigo_junta": "2695",
+   "nombre_materia": "PRODUCCIÓN EN LENGUAJES"
+ },
+ {
+   "codigo_junta": "2698",
+   "nombre_materia": "TURISMO Y SOCIEDAD"
+ },
+ {
+   "codigo_junta": "2699",
+   "nombre_materia": "LENGUA ADICIONAL - FRANCÉS"
+ },
+ {
+   "codigo_junta": "2701",
+   "nombre_materia": "LENGUA ADICIONAL - ITALIANO"
+ },
+ {
+   "codigo_junta": "2702",
+   "nombre_materia": "LENGUA ADICIONAL - PORTUGUÉS"
+ },
+ {
+   "codigo_junta": "2703",
+   "nombre_materia": "ECONOMÍA "
+ },
+ {
+   "codigo_junta": "2705",
+   "nombre_materia": " PATRIMONIO TURÍSTICO"
+ },
+ {
+   "codigo_junta": "2706",
+   "nombre_materia": "ORGANIZACIONES TURÍSTICAS"
+ },
+ {
+   "codigo_junta": "2707",
+   "nombre_materia": "SISTEMAS DE INFORMACIÓN CONTABLE "
+ },
+ {
+   "codigo_junta": "2708",
+   "nombre_materia": "ADMINISTRACIÓN"
+ },
+ {
+   "codigo_junta": "2709",
+   "nombre_materia": "INTERCOMPRENSIÓN EN LENGUAS "
+ },
+ {
+   "codigo_junta": "2710",
+   "nombre_materia": "LENGUAJES ARTÍSTICOS INTEGRADOS - ARTES VISUALES"
+ },
+ {
+   "codigo_junta": "2711",
+   "nombre_materia": "LENGUAJES ARTÍSTICOS INTEGRADOS - AUDIOVISUALES"
+ },
+ {
+   "codigo_junta": "2712",
+   "nombre_materia": "LENGUAJES ARTÍSTICOS INTEGRADOS - DANZA"
+ },
+ {
+   "codigo_junta": "2713",
+   "nombre_materia": "LENGUAJES ARTÍSTICOS INTEGRADOS - MULTIMEDIA"
+ },
+ {
+   "codigo_junta": "2714",
+   "nombre_materia": "LENGUAJES ARTÍSTICOS INTEGRADOS - MÚSICA"
+ },
+ {
+   "codigo_junta": "2715",
+   "nombre_materia": "LENGUAJES ARTÍSTICOS INTEGRADOS - TEATRO"
+ },
+ {
+   "codigo_junta": "2728",
+   "nombre_materia": "CIENCIAS SOCIALES - HISTORIA"
+ },
+ {
+   "codigo_junta": "2729",
+   "nombre_materia": "CIENCIAS NATURALES - BIOLOGÍA"
+ },
+ {
+   "codigo_junta": "2731",
+   "nombre_materia": "CIENCIAS SOCIALES - GEOGRAFÍA"
+ },
+ {
+   "codigo_junta": "2732",
+   "nombre_materia": "CIENCIAS NATURALES - FÍSICA"
+ },
+ {
+   "codigo_junta": "2733",
+   "nombre_materia": "CIENCIAS NATURALES - QUÍMICA"
+ },
+ {
+   "codigo_junta": "2734",
+   "nombre_materia": "CIENCIAS NATURALES "
+ },
+ {
+   "codigo_junta": "2737",
+   "nombre_materia": "CIENCIAS SOCIALES"
+ },
+ {
+   "codigo_junta": "2743",
+   "nombre_materia": "LUTHERÍA"
+ },
+ {
+   "codigo_junta": "2744",
+   "nombre_materia": "METODOLOGÍA DE LA INVESTIGACIÓN EN CIENCIAS NATURALES"
+ },
+ {
+   "codigo_junta": "2745",
+   "nombre_materia": "METODOLOGÍA DE LA INVESTIGACIÓN EN CIENCIAS SOCIALES"
+ },
+ {
+   "codigo_junta": "2746",
+   "nombre_materia": "ORGANIZACIÓN DE EVENTOS"
+ },
+ {
+   "codigo_junta": "2747",
+   "nombre_materia": "PATRIMONIO CULTURAL"
+ },
+ {
+   "codigo_junta": "2748",
+   "nombre_materia": "PRÁCTICAS CORPORALES Y CULTURA"
+ },
+ {
+   "codigo_junta": "2749",
+   "nombre_materia": "PROBLEMÁTICAS ÉTICAS Y POLÍTICAS"
+ },
+ {
+   "codigo_junta": "2750",
+   "nombre_materia": "PRODUCCIÓN ANIMAL"
+ },
+ {
+   "codigo_junta": "2751",
+   "nombre_materia": "PRODUCCIÓN AUDIOVISUAL "
+ },
+ {
+   "codigo_junta": "2752",
+   "nombre_materia": "PRODUCCIÓN AUDIOVISUAL DIGITAL"
+ },
+ {
+   "codigo_junta": "2753",
+   "nombre_materia": "PRODUCCIÓN EN MULTIMEDIA "
+ },
+ {
+   "codigo_junta": "2754",
+   "nombre_materia": "PRODUCCIÓN VEGETAL"
+ },
+ {
+   "codigo_junta": "2755",
+   "nombre_materia": "QUÍMICA - C.O. CIENCIAS NATURALES"
+ },
+ {
+   "codigo_junta": "2756",
+   "nombre_materia": "RECREACIÓN Y TIEMPO LIBRE"
+ },
+ {
+   "codigo_junta": "2757",
+   "nombre_materia": "REDES DIGITALES DE INFORMACIÓN"
+ },
+ {
+   "codigo_junta": "2758",
+   "nombre_materia": "RESPONSABILIDAD SOCIAL DE LAS ORGANIZACIONES"
+ },
+ {
+   "codigo_junta": "2759",
+   "nombre_materia": "ROBÓTICA Y SISTEMAS DE CONTROL COMPUTARIZADOS"
+ },
+ {
+   "codigo_junta": "2760",
+   "nombre_materia": "SOCIEDAD, CULTURA Y COMUNICACIÓN"
+ },
+ {
+   "codigo_junta": "2761",
+   "nombre_materia": "TÉCNICAS Y LENGUAJES DE PROGRAMACIÓN"
+ },
+ {
+   "codigo_junta": "2762",
+   "nombre_materia": "TECNOLOGÍA DE IMÁGENES"
+ },
+ {
+   "codigo_junta": "2764",
+   "nombre_materia": "TURISMO Y DESARROLLO SUSTENTABLE"
+ },
+ {
+   "codigo_junta": "2765",
+   "nombre_materia": "E.O.I. MARCO JURÍDICO DE LAS ORGANIZACIONES"
+ },
+ {
+   "codigo_junta": "2766",
+   "nombre_materia": "ARTE E INDUSTRIAS CULTURALES"
+ },
+ {
+   "codigo_junta": "2767",
+   "nombre_materia": "ARTE, CULTURA Y SOCIEDAD"
+ },
+ {
+   "codigo_junta": "2768",
+   "nombre_materia": "CIUDADANÍA Y POLÍTICA"
+ },
+ {
+   "codigo_junta": "2769",
+   "nombre_materia": "GESTIÓN Y ADMINISTRACIÓN CULTURAL"
+ },
+ {
+   "codigo_junta": "2770",
+   "nombre_materia": "LENGUAJE AUDIOVISUAL"
+ },
+ {
+   "codigo_junta": "2771",
+   "nombre_materia": "TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN"
+ },
+ {
+   "codigo_junta": "2777",
+   "nombre_materia": "SISTEMAS DIGITALES DE INFORMACIÓN"
+ },
+ {
+   "codigo_junta": "2778",
+   "nombre_materia": "APLICACIONES INFORMÁTICAS"
+ },
+ {
+   "codigo_junta": "2779",
+   "nombre_materia": "DESARROLLO DE SOLUCIONES INFORMÁTICAS"
+ },
+ {
+   "codigo_junta": "2781",
+   "nombre_materia": "ADMINISTRACIÓN DE LA PRODUCCIÓN Y COMERCIALIZACIÓN"
+ },
+ {
+   "codigo_junta": "2782",
+   "nombre_materia": "ADMINISTRACIÓN DE ORGANIZACIONES AGROAMBIENTALES"
+ },
+ {
+   "codigo_junta": "2783",
+   "nombre_materia": "ADMINISTRACIÓN DE ORGANIZACIONES TURÍSTICAS"
+ },
+ {
+   "codigo_junta": "2784",
+   "nombre_materia": "ADMINISTRACIÓN DE RECURSOS HUMANOS "
+ },
+ {
+   "codigo_junta": "2785",
+   "nombre_materia": "ADMINISTRACIÓN FINANCIERA"
+ },
+ {
+   "codigo_junta": "2817",
+   "nombre_materia": "HISTORIA DE LA CIENCIA EN ARGENTINA"
+ },
+ {
+   "codigo_junta": "2933",
+   "nombre_materia": "EDUCACIÓN ARTÍSTICA - ARTES VISUALES"
+ },
+ {
+   "codigo_junta": "2934",
+   "nombre_materia": "EDUCACIÓN ARTÍSTICA - MÚSICA"
+ },
+ {
+   "codigo_junta": "2935",
+   "nombre_materia": "EDUCACIÓN ARTÍSTICA - TEATRO"
+ },
+ {
+   "codigo_junta": "2936",
+   "nombre_materia": "EDUCACIÓN ARTÍSTICA - DANZA"
+ },
+ {
+   "codigo_junta": "2937",
+   "nombre_materia": "CIUDADANIA Y PARTICIPACION"
+ },
+ {
+   "codigo_junta": "2938",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO"
+ },
+ {
+   "codigo_junta": "2947",
+   "nombre_materia": "ECONOMÍA POLÍTICA"
+ },
+ {
+   "codigo_junta": "2948",
+   "nombre_materia": "ECONOMÍA Y DESARROLLO SUSTENTABLE"
+ },
+ {
+   "codigo_junta": "2963",
+   "nombre_materia": "CIUDADANÍA Y POLÍTICA - HUMANIDADES"
+ },
+ {
+   "codigo_junta": "2964",
+   "nombre_materia": "TURISMO Y SOCIEDAD - PATRIMONIO TURÍSTICO"
+ },
+ {
+   "codigo_junta": "2966",
+   "nombre_materia": "SISTEMAS AGROAMBIENTALES "
+ },
+ {
+   "codigo_junta": "2967",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO - ARTES VISUALES"
+ },
+ {
+   "codigo_junta": "2968",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO - AUDIOVISUALES"
+ },
+ {
+   "codigo_junta": "2969",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO - CIENCIAS NATURALES"
+ },
+ {
+   "codigo_junta": "2970",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO - COMUNICACIÓN"
+ },
+ {
+   "codigo_junta": "2971",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO - DANZA"
+ },
+ {
+   "codigo_junta": "2972",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO - EDUCACIÓN FÍSICA"
+ },
+ {
+   "codigo_junta": "2973",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO - LENGUAS"
+ },
+ {
+   "codigo_junta": "2974",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO - MULTIMEDIA"
+ },
+ {
+   "codigo_junta": "2975",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO - MÚSICA"
+ },
+ {
+   "codigo_junta": "2976",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO - TEATRO"
+ },
+ {
+   "codigo_junta": "2977",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO -  TURISMO"
+ },
+ {
+   "codigo_junta": "2979",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO - AGRO Y AMBIENTE"
+ },
+ {
+   "codigo_junta": "2981",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO - ECONOMÍA Y ADMINISTRACIÓN"
+ },
+ {
+   "codigo_junta": "2983",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO - CIENCIAS SOCIALES Y HUMANIDADES"
+ },
+ {
+   "codigo_junta": "2984",
+   "nombre_materia": "FORMACIÓN PARA LA VIDA Y EL TRABAJO -  INFORMÁTICA"
+ },
+ {
+   "codigo_junta": "2985",
+   "nombre_materia": "SISTEMAS AGROAMBIENTALES I COMPONENTE VEGETAL"
+ },
+ {
+   "codigo_junta": "2986",
+   "nombre_materia": "SISTEMAS AGROAMBIENTALES II COMPONENTE ANIMAL"
+ },
+ {
+   "codigo_junta": "2987",
+   "nombre_materia": "SISTEMAS AGROAMBIENTALES III AGRO Y FORESTO INDUSTRIAS"
+ },
+ {
+   "codigo_junta": "2989",
+   "nombre_materia": "ECONOMÍA Y GESTIÓN AGROAMBIENTAL"
+ },
+ {
+   "codigo_junta": "2992",
+   "nombre_materia": "GESTIÓN DE LAS ORGANIZACIONES DEPORTIVAS Y RECREATIVAS"
+ },
+ {
+   "codigo_junta": "2993",
+   "nombre_materia": "GESTIÓN DE ORGANIZACIONES SOCIALES"
+ },
+ {
+   "codigo_junta": "3008",
+   "nombre_materia": "ADMINISTRACIÓN Y CONDUCCIÓN DE OBRAS"
+ },
+ {
+   "codigo_junta": "3009",
+   "nombre_materia": "AERODINÁMICA "
+ },
+ {
+   "codigo_junta": "3010",
+   "nombre_materia": "AERONAVES Y SISTEMAS MECÁNICOS III"
+ },
+ {
+   "codigo_junta": "3011",
+   "nombre_materia": "ANTEPROYECTO DE AERONAVES"
+ },
+ {
+   "codigo_junta": "3012",
+   "nombre_materia": "APLICACIÓN DE NUEVAS TECNOLOGÍAS"
+ },
+ {
+   "codigo_junta": "3015",
+   "nombre_materia": "ASESORAMIENTO TÉCNICO"
+ },
+ {
+   "codigo_junta": "3016",
+   "nombre_materia": "INDUSTRIALIZACIÓN"
+ },
+ {
+   "codigo_junta": "3017",
+   "nombre_materia": "AUTOMATIZACIÓN INDUSTRIAL II"
+ },
+ {
+   "codigo_junta": "3018",
+   "nombre_materia": "BASE DE DATOS II"
+ },
+ {
+   "codigo_junta": "3019",
+   "nombre_materia": "BIOTECNOLOGÍA EN ALIMENTOS"
+ },
+ {
+   "codigo_junta": "3030",
+   "nombre_materia": "BROMATOLOGÍA Y TOXICOLOGÍA"
+ },
+ {
+   "codigo_junta": "3033",
+   "nombre_materia": "CIENCIAS NATURALES APLICADAS A LA PRODUCCIÓN AGROPECUARIA"
+ },
+ {
+   "codigo_junta": "3035",
+   "nombre_materia": "CNC Y CAD-CAM APLICADOS A LOS PROCESOS DE PRODUCCIÓN "
+ },
+ {
+   "codigo_junta": "3039",
+   "nombre_materia": "CONSTRUCCIÓN Y MANTENIMIENTO DE ESTRUCTURAS"
+ },
+ {
+   "codigo_junta": "3041",
+   "nombre_materia": "CONTROL ESTADÍSTICO DE LA PRODUCCIÓN"
+ },
+ {
+   "codigo_junta": "3049",
+   "nombre_materia": "ELECTROTECNIA (ELECTRICIDAD)"
+ },
+ {
+   "codigo_junta": "3051",
+   "nombre_materia": "ELECTROTECNIA Y ELECTRÓNICA INDUSTRIAL"
+ },
+ {
+   "codigo_junta": "3053",
+   "nombre_materia": "ENSAYO DE COMPONENTES, SISTEMAS E INSTALACIONES DEL AUTOMOTOR"
+ },
+ {
+   "codigo_junta": "3054",
+   "nombre_materia": "EQUIPOS E INSTALACIONES INDUSTRIALES"
+ },
+ {
+   "codigo_junta": "3057",
+   "nombre_materia": "ESTRUCTURA DEL VEHÍCULO"
+ },
+ {
+   "codigo_junta": "3077",
+   "nombre_materia": "INDUSTRIALIZACIÓN DE PRODUCTOS AGROPECUARIOS"
+ },
+ {
+   "codigo_junta": "3088",
+   "nombre_materia": "INSTALACIONES AGROPECUARIAS"
+ },
+ {
+   "codigo_junta": "3091",
+   "nombre_materia": "INSTALACIONES ELÉCTRICAS Y ELECTRÓNICAS"
+ },
+ {
+   "codigo_junta": "3095",
+   "nombre_materia": "INTRODUCCIÓN A LA PROGRAMACIÓN"
+ },
+ {
+   "codigo_junta": "3102",
+   "nombre_materia": "LENTES DE CONTACTO"
+ },
+ {
+   "codigo_junta": "3103",
+   "nombre_materia": "LÓGICA MATEMÁTICA"
+ },
+ {
+   "codigo_junta": "3107",
+   "nombre_materia": "MÁQUINAS AGRÍCOLAS"
+ },
+ {
+   "codigo_junta": "3113",
+   "nombre_materia": "MÁQUINAS Y EQUIPOS MINEROS"
+ },
+ {
+   "codigo_junta": "3115",
+   "nombre_materia": "MÁQUINAS, HERRAMIENTAS Y CONTROL DIMENSIONAL I Y II"
+ },
+ {
+   "codigo_junta": "3117",
+   "nombre_materia": "MATERIALES Y ENSAYO"
+ },
+ {
+   "codigo_junta": "3118",
+   "nombre_materia": "MATERIALES Y PROCESO DE MECANIZADO (AUTOMOTORES)"
+ },
+ {
+   "codigo_junta": "3123",
+   "nombre_materia": "MÉTODOS DE EXPLOTACIÓN Y VOLADURA"
+ },
+ {
+   "codigo_junta": "3127",
+   "nombre_materia": "MÉTODOS Y TÉCNICAS DE  PROSPECCIÓN Y EXPLORACIÓN"
+ },
+ {
+   "codigo_junta": "3128",
+   "nombre_materia": "MÉTODOS Y TÉCNICAS DE ANÁLISIS DE CAMPO"
+ },
+ {
+   "codigo_junta": "3129",
+   "nombre_materia": "MÉTODOS Y TÉCNICAS DE ANÁLISIS DE LABORATORIO"
+ },
+ {
+   "codigo_junta": "3135",
+   "nombre_materia": "OPERACIÓN DE CARGA Y TRANSPORTE"
+ },
+ {
+   "codigo_junta": "3137",
+   "nombre_materia": "OPERACIÓN Y MANTENIMIENTO DE COMPONENTES ELECTROMECÁNICOS"
+ },
+ {
+   "codigo_junta": "3138",
+   "nombre_materia": "OPERACIÓN Y MANTENIMIENTO DE EQUIPOS ELECTROMECÁNICOS"
+ },
+ {
+   "codigo_junta": "3141",
+   "nombre_materia": "ÓPTICA FÍSICA"
+ },
+ {
+   "codigo_junta": "3142",
+   "nombre_materia": "ÓPTICA GEOMÉTRICA"
+ },
+ {
+   "codigo_junta": "3152",
+   "nombre_materia": "PRODUCCIÓN VEGETAL III: FORRAJES"
+ },
+ {
+   "codigo_junta": "3159",
+   "nombre_materia": "PROYECTO DE COMPONENTES, SISTEMAS E INSTALACIONES DEL AUTOMOTOR"
+ },
+ {
+   "codigo_junta": "3164",
+   "nombre_materia": "PROYECTO MINERO"
+ },
+ {
+   "codigo_junta": "3165",
+   "nombre_materia": "PROYECTO Y DISEÑO DE COMPONENTES DE MÁQUINAS AGRÍCOLAS I"
+ },
+ {
+   "codigo_junta": "3166",
+   "nombre_materia": "PROYECTO Y DISEÑO DE COMPONENTES DE MÁQUINAS AGRÍCOLAS II"
+ },
+ {
+   "codigo_junta": "3169",
+   "nombre_materia": "QUÍMICA ANALÍTICA CUALITATIVA"
+ },
+ {
+   "codigo_junta": "3171",
+   "nombre_materia": "QUÍMICA GENERAL"
+ },
+ {
+   "codigo_junta": "3172",
+   "nombre_materia": "QUIMICA GENERAL E INORGANICA"
+ },
+ {
+   "codigo_junta": "3175",
+   "nombre_materia": "QUÍMICA INORGÁNICA"
+ },
+ {
+   "codigo_junta": "3180",
+   "nombre_materia": "REPRESENTACIÓN GRÁFICA E INTERPRETACIÓN DE PLANOS (AUTOMOTORES)"
+ },
+ {
+   "codigo_junta": "3183",
+   "nombre_materia": "REPRESENTACIÓN GRÁFICA E INTERPRETACIÓN DE PLANOS (INDUSTRIA DE PROCESOS)"
+ },
+ {
+   "codigo_junta": "3189",
+   "nombre_materia": "SERVICIO Y MANTENIMIENTO MINERO"
+ },
+ {
+   "codigo_junta": "3193",
+   "nombre_materia": "SISTEMAS DE TRANSMISIÓN, DIRECCIÓN, SUSPENSIÓN Y FRENOS"
+ },
+ {
+   "codigo_junta": "3199",
+   "nombre_materia": "SISTEMAS Y TELECOMUNICACIONES"
+ },
+ {
+   "codigo_junta": "3210",
+   "nombre_materia": "TRATAMIENTO DE EMISIONES"
+ },
+ {
+   "codigo_junta": "3211",
+   "nombre_materia": "VERIFICACIÓN Y MANTENIMIENTO DE INSTALACIONES ELÉCTRICAS Y ELECTRÓNICAS"
+ },
+ {
+   "codigo_junta": "3214",
+   "nombre_materia": "VERIFICACIÓN Y MANTENIMIENTO DE LOS SISTEMAS DE TRANSMISIÓN, DIRECCIÓN, SUSPENSIÓN Y FRENOS"
+ },
+ {
+   "codigo_junta": "3217",
+   "nombre_materia": "DIBUJO TECNICO OPTICO"
+ },
+ {
+   "codigo_junta": "3219",
+   "nombre_materia": "AERONAVES Y SISTEMAS MECÁNICOS I Y II"
+ },
+ {
+   "codigo_junta": "3220",
+   "nombre_materia": "ALTERACIONES DE LA VISION"
+ },
+ {
+   "codigo_junta": "3221",
+   "nombre_materia": "ANATOMOFISIOLOGIA DEL OJO"
+ },
+ {
+   "codigo_junta": "3222",
+   "nombre_materia": "CONOCIMIENTO DE LOS MATERIALES"
+ },
+ {
+   "codigo_junta": "3223",
+   "nombre_materia": "CONSTRUCCIONES I Y II"
+ },
+ {
+   "codigo_junta": "3224",
+   "nombre_materia": "DIBUJO TECNICO (AVIONICA - AERONAUTICA)"
+ },
+ {
+   "codigo_junta": "3225",
+   "nombre_materia": "DISEÑO I Y II"
+ },
+ {
+   "codigo_junta": "3226",
+   "nombre_materia": "ELECTRICIDAD Y ELECTRONICA DEL AUTOMOVIL"
+ },
+ {
+   "codigo_junta": "3227",
+   "nombre_materia": "ELECTRONICA"
+ },
+ {
+   "codigo_junta": "3228",
+   "nombre_materia": "ELECTRONICA ANALOGICA I Y II"
+ },
+ {
+   "codigo_junta": "3229",
+   "nombre_materia": "ELÉCTRONICA DIGITAL I Y II"
+ },
+ {
+   "codigo_junta": "3231",
+   "nombre_materia": "ELECTROTECNIA I Y II"
+ },
+ {
+   "codigo_junta": "3232",
+   "nombre_materia": "ELEMENTOS DE MÁQUINAS I (MECANIZACIÓN AGROPECUARIA)"
+ },
+ {
+   "codigo_junta": "3233",
+   "nombre_materia": "ENERGIAS RENOVABLES Y AMBIENTE"
+ },
+ {
+   "codigo_junta": "3234",
+   "nombre_materia": "ESTATICA Y RESISTENCIA DE LOS MATERIALES"
+ },
+ {
+   "codigo_junta": "3236",
+   "nombre_materia": "ESTRUCTURAS I"
+ },
+ {
+   "codigo_junta": "3237",
+   "nombre_materia": "GEOGRAFIA FISICA"
+ },
+ {
+   "codigo_junta": "3238",
+   "nombre_materia": "GESTION DE DATOS"
+ },
+ {
+   "codigo_junta": "3239",
+   "nombre_materia": "HIDRAULICA Y NEUMATICA APLICADA"
+ },
+ {
+   "codigo_junta": "3240",
+   "nombre_materia": "INFORMATICA APLICADA A PROCESOS"
+ },
+ {
+   "codigo_junta": "3241",
+   "nombre_materia": "INFORMATICA ELECTRONICA I "
+ },
+ {
+   "codigo_junta": "3242",
+   "nombre_materia": "INFORMATICA Y ESTADISTICA APLICADA"
+ },
+ {
+   "codigo_junta": "3243",
+   "nombre_materia": "INSTALACIONES ELECTRICAS (MAESTRO MAYOR DE OBRAS)"
+ },
+ {
+   "codigo_junta": "3244",
+   "nombre_materia": "INSTALACIONES SANITARIAS"
+ },
+ {
+   "codigo_junta": "3245",
+   "nombre_materia": "INSTRUMENTAL Y SISTEMAS ELECTRICOS I "
+ },
+ {
+   "codigo_junta": "3246",
+   "nombre_materia": "LABORATORIO DE APLICACIONES I"
+ },
+ {
+   "codigo_junta": "3247",
+   "nombre_materia": "LABORATORIO DE HARDWARE"
+ },
+ {
+   "codigo_junta": "3248",
+   "nombre_materia": "LABORATORIO DE SISTEMAS OPERATIVOS"
+ },
+ {
+   "codigo_junta": "3249",
+   "nombre_materia": "LEGISLACION ALIMENTARIA Y SANITARIA"
+ },
+ {
+   "codigo_junta": "3250",
+   "nombre_materia": "MÁQUINAS - HERRAMIENTAS I Y II"
+ },
+ {
+   "codigo_junta": "3251",
+   "nombre_materia": "MÁQUINAS ELÉCTRICAS I"
+ },
+ {
+   "codigo_junta": "3252",
+   "nombre_materia": "MATERIALES PARA LA CONSTRUCCION"
+ },
+ {
+   "codigo_junta": "3253",
+   "nombre_materia": "MATERIALES Y ENSAYOS (AUTOMOTORES)"
+ },
+ {
+   "codigo_junta": "3254",
+   "nombre_materia": "MATERIALES Y EQUIPOS I Y II"
+ },
+ {
+   "codigo_junta": "3255",
+   "nombre_materia": "MATERIALES Y RESISTENCIA DE MATERIALES"
+ },
+ {
+   "codigo_junta": "3256",
+   "nombre_materia": "MOTORES ENDOTERMICOS I Y II"
+ },
+ {
+   "codigo_junta": "3257",
+   "nombre_materia": "NUTRICIÓN"
+ },
+ {
+   "codigo_junta": "3259",
+   "nombre_materia": "OPERACIONES Y TECNOLOGIAS DE CONTROL"
+ },
+ {
+   "codigo_junta": "3261",
+   "nombre_materia": "PROCESOS CONSTRUCTIVOS EN MADERA I Y II"
+ },
+ {
+   "codigo_junta": "3262",
+   "nombre_materia": "SISTEMAS DIGITALES DE INFORMACIÓN - APLICACIONES INFORMÁTICAS"
+ },
+ {
+   "codigo_junta": "3263",
+   "nombre_materia": "PROCESOS DE MECANIZADO"
+ },
+ {
+   "codigo_junta": "3264",
+   "nombre_materia": "PRODUCCION ANIMAL I:INTRODUCCION A LA PRODUCCION ANIMAL"
+ },
+ {
+   "codigo_junta": "3265",
+   "nombre_materia": "PRODUCCION ANIMAL II : PORCINOS"
+ },
+ {
+   "codigo_junta": "3266",
+   "nombre_materia": "PRODUCCION VEGETAL I : INTRODUCCION A LA PRODUCCION VEGETAL"
+ },
+ {
+   "codigo_junta": "3267",
+   "nombre_materia": "PRODUCCION VEGETAL II"
+ },
+ {
+   "codigo_junta": "3269",
+   "nombre_materia": "PROYECTO Y REPRESENTACIÓN GRÁFICA I Y II"
+ },
+ {
+   "codigo_junta": "3270",
+   "nombre_materia": "QUIMICA ANALITICA GENERAL"
+ },
+ {
+   "codigo_junta": "3271",
+   "nombre_materia": "QUIMICA ANALITICA GENERAL E INSTRUMENTAL"
+ },
+ {
+   "codigo_junta": "3272",
+   "nombre_materia": "QUIMICA BIOLOGICA"
+ },
+ {
+   "codigo_junta": "3273",
+   "nombre_materia": "CÁLCULO Y DISEÑO DE ELEMENTOS DE MÁQUINAS II"
+ },
+ {
+   "codigo_junta": "3274",
+   "nombre_materia": "QUIMICA ORGANICA"
+ },
+ {
+   "codigo_junta": "3275",
+   "nombre_materia": "RECURSOS FORESTALES"
+ },
+ {
+   "codigo_junta": "3277",
+   "nombre_materia": "REPRESENTACION GRAFICA E INTERPRETACION DE PLANOS I Y II (MECANICA)"
+ },
+ {
+   "codigo_junta": "3278",
+   "nombre_materia": "REPRESENTACION GRAFICA E INTERPRETACION DE PLANOS (MECANIZACION AGROPECUARIA)"
+ },
+ {
+   "codigo_junta": "3279",
+   "nombre_materia": "SISTEMAS DE ALIMENTACION, ADMISION Y ESCAPE"
+ },
+ {
+   "codigo_junta": "3280",
+   "nombre_materia": "SISTEMAS DE CONTROL E INSTRUMENTACION VIRTUAL"
+ },
+ {
+   "codigo_junta": "3281",
+   "nombre_materia": "SISTEMAS DE INFORMACION"
+ },
+ {
+   "codigo_junta": "3283",
+   "nombre_materia": "SISTEMAS DE REPRESENTACION"
+ },
+ {
+   "codigo_junta": "3284",
+   "nombre_materia": "SISTEMAS HIDRAULICOS Y NEUMATICOS"
+ },
+ {
+   "codigo_junta": "3285",
+   "nombre_materia": "SISTEMAS Y ORGANIZACIONES"
+ },
+ {
+   "codigo_junta": "3287",
+   "nombre_materia": "TECNOLOGIA DE LOS MATERIALES"
+ },
+ {
+   "codigo_junta": "3289",
+   "nombre_materia": "TOPOGRAFÍA E INTERPRETACIÓN DE IMÁGENES I Y II"
+ },
+ {
+   "codigo_junta": "3290",
+   "nombre_materia": "TOPOGRAFÍA I"
+ },
+ {
+   "codigo_junta": "3291",
+   "nombre_materia": "CENTRALES Y CANALIZACIONES ELÉCTRICAS"
+ },
+ {
+   "codigo_junta": "3292",
+   "nombre_materia": "COMPORTAMIENTO DE LAS ESTRUCTURAS"
+ },
+ {
+   "codigo_junta": "3294",
+   "nombre_materia": "INFORMATICA ELECTRONICA II"
+ },
+ {
+   "codigo_junta": "3298",
+   "nombre_materia": "LENGUAJE MULTIMEDIA"
+ },
+ {
+   "codigo_junta": "3299",
+   "nombre_materia": "ANÁLISIS MATEMÁTICO"
+ },
+ {
+   "codigo_junta": "3300",
+   "nombre_materia": "ECONOMÍA Y GESTIÓN DE LA PRODUCCIÓN INDUSTRIAL"
+ },
+ {
+   "codigo_junta": "3301",
+   "nombre_materia": "OPERACIONES Y PROCESOS QUÍMICOS I Y II"
+ },
+ {
+   "codigo_junta": "3304",
+   "nombre_materia": "ECONOMÍA Y GESTIÓN DE LA PRODUCCIÓN AGROPECUARIA"
+ },
+ {
+   "codigo_junta": "3305",
+   "nombre_materia": "NUEVAS TECNOLOGÍAS APLICADAS A LA PRODUCCIÓN AGROPECUARIA"
+ },
+ {
+   "codigo_junta": "3306",
+   "nombre_materia": "MAQUINARIA AGRÍCOLA"
+ },
+ {
+   "codigo_junta": "3307",
+   "nombre_materia": "PRODUCCIÓN ANIMAL III: PRODUCCIÓN DE CARNE"
+ },
+ {
+   "codigo_junta": "3308",
+   "nombre_materia": "TECNOLOGÍA DE LOS ALIMENTOS I Y II"
+ },
+ {
+   "codigo_junta": "3309",
+   "nombre_materia": "MICROBIOLOGÍA GENERAL"
+ },
+ {
+   "codigo_junta": "3310",
+   "nombre_materia": "BROMATOLOGÍA"
+ },
+ {
+   "codigo_junta": "3311",
+   "nombre_materia": "INDUSTRIAS ALIMENTARIAS I"
+ },
+ {
+   "codigo_junta": "3312",
+   "nombre_materia": "ESTADÍSTICA APLICADA"
+ },
+ {
+   "codigo_junta": "3313",
+   "nombre_materia": "PROCESOS MICROBIOLÓGICOS"
+ },
+ {
+   "codigo_junta": "3315",
+   "nombre_materia": "AUTOMATIZACIÓN Y CONTROL DE PROCESOS INDUSTRIALES"
+ },
+ {
+   "codigo_junta": "3317",
+   "nombre_materia": "INSTALACIONES Y MANTENIMIENTO INDUSTRIAL"
+ },
+ {
+   "codigo_junta": "3318",
+   "nombre_materia": "DISEÑO MECÁNICO I"
+ },
+ {
+   "codigo_junta": "3322",
+   "nombre_materia": "INDUSTRIALIZACIÓN DE LA PRIMERA TRANSFORMACIÓN"
+ },
+ {
+   "codigo_junta": "3324",
+   "nombre_materia": "COMPUTADORAS DE AERONAVES"
+ },
+ {
+   "codigo_junta": "3326",
+   "nombre_materia": "ECONOMÍA Y GESTIÓN DE LA CONSTRUCCIÓN"
+ },
+ {
+   "codigo_junta": "3329",
+   "nombre_materia": "ESTRUCTURAS II"
+ },
+ {
+   "codigo_junta": "3333",
+   "nombre_materia": "ELECTROTECNIA"
+ },
+ {
+   "codigo_junta": "3334",
+   "nombre_materia": "INFORMÁTICA APLICADA A LA ÓPTICA"
+ },
+ {
+   "codigo_junta": "3335",
+   "nombre_materia": "ESTADÍSTICA"
+ },
+ {
+   "codigo_junta": "3336",
+   "nombre_materia": "RECURSOS HUMANOS"
+ },
+ {
+   "codigo_junta": "3338",
+   "nombre_materia": "LABORATORIO DE PROGRAMACIÓN "
+ },
+ {
+   "codigo_junta": "3339",
+   "nombre_materia": "BASE DE DATOS"
+ },
+ {
+   "codigo_junta": "3340",
+   "nombre_materia": "QUÍMICA ANALÍTICA Y GEOQUÍMICA"
+ },
+ {
+   "codigo_junta": "3341",
+   "nombre_materia": "MINERALOGÍA Y PETROLOGÍA"
+ },
+ {
+   "codigo_junta": "3342",
+   "nombre_materia": "YACIMIENTOS MINERALES"
+ },
+ {
+   "codigo_junta": "3343",
+   "nombre_materia": "TRATAMIENTO DE MINERALES I"
+ },
+ {
+   "codigo_junta": "3345",
+   "nombre_materia": "VERIFICACIÓN Y ENSAYO DE MOTORES"
+ },
+ {
+   "codigo_junta": "3346",
+   "nombre_materia": "VERIFICACIÓN Y MANTENIMIENTO DE SISTEMAS DE ALIMENTACIÓN, ADMISIÓN Y ESCAPE"
+ },
+ {
+   "codigo_junta": "3347",
+   "nombre_materia": "INFORMÁTICA APLICADA I Y II (PROGRAMACIÓN)"
+ },
+ {
+   "codigo_junta": "3349",
+   "nombre_materia": "BASE DE DATOS I"
+ },
+ {
+   "codigo_junta": "3350",
+   "nombre_materia": "MATERIALES Y EQUIPOS III"
+ },
+ {
+   "codigo_junta": "3352",
+   "nombre_materia": "ELECTRÓNICA INDUSTRIAL I"
+ },
+ {
+   "codigo_junta": "3353",
+   "nombre_materia": "TELECOMUNICACIONES I"
+ },
+ {
+   "codigo_junta": "3354",
+   "nombre_materia": "INSTALACIONES INDUSTRIALES"
+ },
+ {
+   "codigo_junta": "3355",
+   "nombre_materia": "MECANISMOS Y ELEMENTOS DE MÁQUINAS"
+ },
+ {
+   "codigo_junta": "3357",
+   "nombre_materia": "MEDICIONES ELÉCTRICAS I Y II"
+ },
+ {
+   "codigo_junta": "3360",
+   "nombre_materia": "AUTOMATIZACIÓN INDUSTRIAL I "
+ },
+ {
+   "codigo_junta": "3361",
+   "nombre_materia": "ELECTRÓNICA INDUSTRIAL (MECANIZACIÓN AGROPECUARIA)"
+ },
+ {
+   "codigo_junta": "3363",
+   "nombre_materia": "CÁLCULO Y DISEÑO DE ELEMENTOS DE MÁQUINAS I"
+ },
+ {
+   "codigo_junta": "3364",
+   "nombre_materia": "MÁQUINAS ELÉCTRICAS, MONTAJE E INSTALACIONES ELECTROMECÁNICAS I"
+ },
+ {
+   "codigo_junta": "3365",
+   "nombre_materia": "AERODINÁMICA I Y II"
+ },
+ {
+   "codigo_junta": "3366",
+   "nombre_materia": "ELECTROTECNIA Y ELECTRÓNICA"
+ },
+ {
+   "codigo_junta": "3367",
+   "nombre_materia": "ECONOMÍA Y GESTIÓN DE LA PRODUCCIÓN INDUSTRIAL - AERONAÚTICA"
+ },
+ {
+   "codigo_junta": "3371",
+   "nombre_materia": "MATERIALES ESPECIALES"
+ },
+ {
+   "codigo_junta": "3372",
+   "nombre_materia": "TEORÍA DE CIRCUITOS I Y II"
+ },
+ {
+   "codigo_junta": "3373",
+   "nombre_materia": "ELECTROTECNIA AERONAÚTICA"
+ },
+ {
+   "codigo_junta": "3377",
+   "nombre_materia": "PREVENCIÓN DE ACCIDENTES Y FACTORES HUMANOS"
+ },
+ {
+   "codigo_junta": "3378",
+   "nombre_materia": "OPERACIÓN Y CONTROL DE PROCESOS I Y II"
+ },
+ {
+   "codigo_junta": "3379",
+   "nombre_materia": "CONEXIÓN DE REDES EXTENDIDAS"
+ },
+ {
+   "codigo_junta": "3380",
+   "nombre_materia": "CONSTRUCCIONES III"
+ },
+ {
+   "codigo_junta": "3381",
+   "nombre_materia": "DISEÑO DEL AUTOMÓVIL"
+ },
+ {
+   "codigo_junta": "3382",
+   "nombre_materia": "DISEÑO III Y IV"
+ },
+ {
+   "codigo_junta": "3383",
+   "nombre_materia": "DISEÑO MECÁNICO II"
+ },
+ {
+   "codigo_junta": "3384",
+   "nombre_materia": "DISEÑO Y MANTENIMIENTO DE INTERIORES"
+ },
+ {
+   "codigo_junta": "3385",
+   "nombre_materia": "ELÉCTRONICA DIGITAL III"
+ },
+ {
+   "codigo_junta": "3386",
+   "nombre_materia": "ELÉCTRONICA DIGITAL IV"
+ },
+ {
+   "codigo_junta": "3387",
+   "nombre_materia": "ELÉCTRONICA INDUSTRIAL II (ELECTRICIDAD)"
+ },
+ {
+   "codigo_junta": "3388",
+   "nombre_materia": "ELÉCTRONICA INDUSTRIAL II (ELECTRÓNICA)"
+ },
+ {
+   "codigo_junta": "3389",
+   "nombre_materia": "ELECTRÓNICA Y SISTEMAS DE COMUNICACIONES I Y II"
+ },
+ {
+   "codigo_junta": "3390",
+   "nombre_materia": "ELECTRÓNICA Y SISTEMAS DE COMUNICACIONES III"
+ },
+ {
+   "codigo_junta": "3391",
+   "nombre_materia": "ELEMENTOS DE MÁQUINAS I (MECÁNICA)"
+ },
+ {
+   "codigo_junta": "3392",
+   "nombre_materia": "ELEMENTOS DE MÁQUINAS II (MECÁNICA)"
+ },
+ {
+   "codigo_junta": "3393",
+   "nombre_materia": "EMPRENDIMIENTO PRODUCTIVO"
+ },
+ {
+   "codigo_junta": "3394",
+   "nombre_materia": "EMPRENDIMIENTOS"
+ },
+ {
+   "codigo_junta": "3395",
+   "nombre_materia": "ENSAYO Y EVALUACIÓN DE AERONAVES"
+ },
+ {
+   "codigo_junta": "3396",
+   "nombre_materia": "ENSAYO Y EVALUACIÓN DE PLANTA DE PODER"
+ },
+ {
+   "codigo_junta": "3397",
+   "nombre_materia": "ESTRUCTURAS DE LA AERONAVE I Y II"
+ },
+ {
+   "codigo_junta": "3398",
+   "nombre_materia": "ESTRUCTURAS DE LA AERONAVE III"
+ },
+ {
+   "codigo_junta": "3399",
+   "nombre_materia": "ESTRUCTURAS EN MADERA"
+ },
+ {
+   "codigo_junta": "3400",
+   "nombre_materia": "ESTRUCTURAS III"
+ },
+ {
+   "codigo_junta": "3401",
+   "nombre_materia": "EVALUACIÓN DE IMPACTO AMBIENTAL"
+ },
+ {
+   "codigo_junta": "3402",
+   "nombre_materia": "FORMULACIÓN DE PROYECTOS AGROPECUARIOS"
+ },
+ {
+   "codigo_junta": "3403",
+   "nombre_materia": "FOTOGRAFÍA Y VIDEO"
+ },
+ {
+   "codigo_junta": "3404",
+   "nombre_materia": "GEOTECNIA"
+ },
+ {
+   "codigo_junta": "3405",
+   "nombre_materia": "HIGIENE Y SEGURIDAD LABORAL"
+ },
+ {
+   "codigo_junta": "3406",
+   "nombre_materia": "HIGIENE Y SEGURIDAD LABORAL (MINERÍA)"
+ },
+ {
+   "codigo_junta": "3407",
+   "nombre_materia": "INDUSTRIAS ALIMENTARIAS II"
+ },
+ {
+   "codigo_junta": "3408",
+   "nombre_materia": "INGLÉS TÉCNICO"
+ },
+ {
+   "codigo_junta": "3409",
+   "nombre_materia": "INSTALACIÓN Y ADMINISTRACIÓN DE REDES LOCALES"
+ },
+ {
+   "codigo_junta": "3410",
+   "nombre_materia": "INSTALACIONES ELÉCTRICAS I Y II"
+ },
+ {
+   "codigo_junta": "3411",
+   "nombre_materia": "INSTALACIONES ELÉCTRICAS III"
+ },
+ {
+   "codigo_junta": "3412",
+   "nombre_materia": "INSTALACIONES ELÉCTRICAS IV"
+ },
+ {
+   "codigo_junta": "3413",
+   "nombre_materia": "INSTRUMENTAL Y SISTEMAS ELÉCTRICOS II"
+ },
+ {
+   "codigo_junta": "3414",
+   "nombre_materia": "INSTRUMENTAL Y SISTEMAS ELÉCTRICOS III"
+ },
+ {
+   "codigo_junta": "3415",
+   "nombre_materia": "INSTRUMENTOS Y AVIÓNICA - ENSAYO Y EVALUACIÓN"
+ },
+ {
+   "codigo_junta": "3416",
+   "nombre_materia": "LABORATORIO DE APLICACIONES II"
+ },
+ {
+   "codigo_junta": "3417",
+   "nombre_materia": "LABORATORIO DE INFORMÁTICA (PROGRAMACIÓN)"
+ },
+ {
+   "codigo_junta": "3418",
+   "nombre_materia": "LABORATORIO DE ÓPTICA I Y II"
+ },
+ {
+   "codigo_junta": "3419",
+   "nombre_materia": "LABORATORIO DE ÓPTICA III"
+ },
+ {
+   "codigo_junta": "3420",
+   "nombre_materia": "LABORATORIO DE ÓPTICA IV"
+ },
+ {
+   "codigo_junta": "3421",
+   "nombre_materia": "LABORATORIO Y MANTENIMIENTO DE INSTRUMENTAL ÓPTICO"
+ },
+ {
+   "codigo_junta": "3422",
+   "nombre_materia": "MANTENIMIENTO DE EQUIPOS EN INSTALACIONES RURALES"
+ },
+ {
+   "codigo_junta": "3423",
+   "nombre_materia": "MANTENIMIENTO DE HARDWARE MONOUSUARIO Y SOFTWARE"
+ },
+ {
+   "codigo_junta": "3424",
+   "nombre_materia": "MÁQUINAS - HERRAMIENTAS III"
+ },
+ {
+   "codigo_junta": "3425",
+   "nombre_materia": "MÁQUINAS - HERRAMIENTAS IV"
+ },
+ {
+   "codigo_junta": "3426",
+   "nombre_materia": "MÁQUINAS ELÉCTRICAS II"
+ },
+ {
+   "codigo_junta": "3427",
+   "nombre_materia": "MÁQUINAS ELÉCTRICAS, MONTAJE E INSTALACIONES ELECTROMECÁNICAS II"
+ },
+ {
+   "codigo_junta": "3428",
+   "nombre_materia": "MÁQUINAS, HERRAMIENTAS Y CONTROL DIMENSIONAL III"
+ },
+ {
+   "codigo_junta": "3429",
+   "nombre_materia": "MARCO JURÍDICO AERONÁUTICO Y AEROESPACIAL"
+ },
+ {
+   "codigo_junta": "3430",
+   "nombre_materia": "MARCO JURÍDICO DE LA CONSTRUCCIÓN"
+ },
+ {
+   "codigo_junta": "3431",
+   "nombre_materia": "MARCO JURÍDICO DE LAS ACTIVIDADES AGROPECUARIAS"
+ },
+ {
+   "codigo_junta": "3432",
+   "nombre_materia": "MARCO JURÍDICO DE LAS ACTIVIDADES INDUSTRIALES"
+ },
+ {
+   "codigo_junta": "3433",
+   "nombre_materia": "MARCO JURÍDICO Y ÉTICA ÓPTICA"
+ },
+ {
+   "codigo_junta": "3434",
+   "nombre_materia": "MICROBIOLOGÍA DE LOS ALIMENTOS"
+ },
+ {
+   "codigo_junta": "3435",
+   "nombre_materia": "MOTORES ENDOTÉRMICOS "
+ },
+ {
+   "codigo_junta": "3436",
+   "nombre_materia": "NORMAS Y PROCEDIMIENTOS"
+ },
+ {
+   "codigo_junta": "3437",
+   "nombre_materia": "OFTÁLMICA I "
+ },
+ {
+   "codigo_junta": "3438",
+   "nombre_materia": "OFTÁLMICA II"
+ },
+ {
+   "codigo_junta": "3439",
+   "nombre_materia": "OFTÁLMICA III"
+ },
+ {
+   "codigo_junta": "3440",
+   "nombre_materia": "OPERACIÓN Y CONTROL DE PROCESOS (MINERÍA)"
+ },
+ {
+   "codigo_junta": "3441",
+   "nombre_materia": "ÓPTICA INSTRUMENTAL Y MECÁNICA DE PRECISIÓN "
+ },
+ {
+   "codigo_junta": "3442",
+   "nombre_materia": "PLANTA DE PODER I Y II"
+ },
+ {
+   "codigo_junta": "3443",
+   "nombre_materia": "PLANTA DE PODER III"
+ },
+ {
+   "codigo_junta": "3444",
+   "nombre_materia": "PREVENCIÓN DE ACCIDENTES AERONÁUTICOS Y FACTORES HUMANOS"
+ },
+ {
+   "codigo_junta": "3445",
+   "nombre_materia": "PROCESO PRODUCTIVO I Y II"
+ },
+ {
+   "codigo_junta": "3446",
+   "nombre_materia": "PROCESOS CONSTRUCTIVOS EN MADERAS"
+ },
+ {
+   "codigo_junta": "3447",
+   "nombre_materia": "PROCESOS CONSTRUCTIVOS EN MADERA III Y IV"
+ },
+ {
+   "codigo_junta": "3448",
+   "nombre_materia": "PROCESOS CONSTRUCTIVOS EN METALES"
+ },
+ {
+   "codigo_junta": "3449",
+   "nombre_materia": "PRODUCCIÓN ANIMAL IV: PRODUCCIÓN DE LECHE"
+ },
+ {
+   "codigo_junta": "3450",
+   "nombre_materia": "PRODUCCIÓN VEGETAL IV: PRODUCCIÓN DE GRANOS"
+ },
+ {
+   "codigo_junta": "3451",
+   "nombre_materia": "PROGRAMACIÓN I Y II"
+ },
+ {
+   "codigo_junta": "3452",
+   "nombre_materia": "PROGRAMACIÓN III"
+ },
+ {
+   "codigo_junta": "3453",
+   "nombre_materia": "PROYECTO I"
+ },
+ {
+   "codigo_junta": "3454",
+   "nombre_materia": "PROYECTO II"
+ },
+ {
+   "codigo_junta": "3455",
+   "nombre_materia": "PROYECTO III"
+ },
+ {
+   "codigo_junta": "3456",
+   "nombre_materia": "PROYECTO INTEGRADOR"
+ },
+ {
+   "codigo_junta": "3457",
+   "nombre_materia": "QUÍMICA ANALÍTICA CUANTITATIVA I Y II"
+ },
+ {
+   "codigo_junta": "3458",
+   "nombre_materia": "QUÍMICA INDUSTRIAL I Y II"
+ },
+ {
+   "codigo_junta": "3459",
+   "nombre_materia": "QUÍMICA ORGÁNICA I"
+ },
+ {
+   "codigo_junta": "3460",
+   "nombre_materia": "QUÍMICA ORGÁNICA II"
+ },
+ {
+   "codigo_junta": "3461",
+   "nombre_materia": "REPRESENTACIÓN GRÁFICA E INTERPRETACIÓN DE PLANOS I (EQUIPOS E INSTALACIONES ELECTROMECÁNICAS)"
+ },
+ {
+   "codigo_junta": "3462",
+   "nombre_materia": "REPRESENTACIÓN GRÁFICA E INTERPRETACIÓN DE PLANOS II (EQUIPOS E INSTALACIONES ELECTROMECÁNICAS)"
+ },
+ {
+   "codigo_junta": "3463",
+   "nombre_materia": "SISMOLOGÍA "
+ },
+ {
+   "codigo_junta": "3464",
+   "nombre_materia": "SISTEMAS CONSTRUCTIVOS PREFABRICADOS"
+ },
+ {
+   "codigo_junta": "3465",
+   "nombre_materia": "SISTEMAS CONSTRUCTIVOS TRADICIONALES"
+ },
+ {
+   "codigo_junta": "3466",
+   "nombre_materia": "SISTEMAS DE COMUNICACIONES Y MICROONDAS"
+ },
+ {
+   "codigo_junta": "3467",
+   "nombre_materia": "SISTEMAS DE CONTROL DE VUELO"
+ },
+ {
+   "codigo_junta": "3468",
+   "nombre_materia": "SISTEMAS DE LA AERONAVE I Y II"
+ },
+ {
+   "codigo_junta": "3469",
+   "nombre_materia": "SISTEMAS DE LA AERONAVE III"
+ },
+ {
+   "codigo_junta": "3470",
+   "nombre_materia": "SISTEMAS NAVEGACIÓN DE LA AERONAVE"
+ },
+ {
+   "codigo_junta": "3471",
+   "nombre_materia": "SISTEMAS INSTRUMENTAL DE LA AERONAVE"
+ },
+ {
+   "codigo_junta": "3472",
+   "nombre_materia": "TECNOLOGÍA Y MANTENIMIENTO AMBIENTAL"
+ },
+ {
+   "codigo_junta": "3473",
+   "nombre_materia": "TELECOMUNICACIONES II"
+ },
+ {
+   "codigo_junta": "3474",
+   "nombre_materia": "TERMODINÁMICA DE LOS SISTEMAS AERONÁUTICOS"
+ },
+ {
+   "codigo_junta": "3475",
+   "nombre_materia": "TERMODINÁMICA Y MÁQUINAS TÉRMICAS"
+ },
+ {
+   "codigo_junta": "3476",
+   "nombre_materia": "TOPOGRAFÍA II"
+ },
+ {
+   "codigo_junta": "3477",
+   "nombre_materia": "TRABAJO INTEGRADOR FINAL"
+ },
+ {
+   "codigo_junta": "3478",
+   "nombre_materia": "TRATAMIENTO DE MINERALES II"
+ },
+ {
+   "codigo_junta": "3479",
+   "nombre_materia": "ELEMENTOS DE MÁQUINAS II (MECANIZACIÓN AGROPECUARIA)"
+ },
+ {
+   "codigo_junta": "3480",
+   "nombre_materia": "PROYECTO Y REPRESENTACIÓN GRÁFICA III"
+ },
+ {
+   "codigo_junta": "3495",
+   "nombre_materia": "ENERGIAS RENOVABLES "
+ },
+ {
+   "codigo_junta": "3496",
+   "nombre_materia": "INSTALACIONES ELÉCTRICAS (MANTENIMIENTO DE INMUEBLES EN ZONAS TURÍSTICAS)"
+ },
+ {
+   "codigo_junta": "3497",
+   "nombre_materia": "DISEÑO Y MANTENIMIENTO DE ESPACIOS EXTERIORES"
+ },
+ {
+   "codigo_junta": "3498",
+   "nombre_materia": "SISTEMAS ELECTRÓNICOS EN INMUEBLES"
+ },
+ {
+   "codigo_junta": "3499",
+   "nombre_materia": "PROYECTO, DIRECCIÓN Y MANTENIMIENTO DE INSTALACIONES"
+ },
+ {
+   "codigo_junta": "3500",
+   "nombre_materia": "OPERACIÓN Y MANTENIMIENTO DE EQUIPOS "
+ },
+ {
+   "codigo_junta": "3501",
+   "nombre_materia": "INSTALACIONES DE GAS Y ESPECIALES (MANTENIMIENTO DE INMUEBLES EN ZONAS TURÍSTICAS)"
+ },
+ {
+   "codigo_junta": "3502",
+   "nombre_materia": "INSTALACIONES DE GAS Y ESPECIALES (MAESTRO MAYOR DE OBRAS)"
+ },
+ {
+   "codigo_junta": "6009",
+   "nombre_materia": "CIENCIAS DE LA TIERRA"
+ },
+ {
+   "codigo_junta": "7001",
+   "nombre_materia": "ACTUACIÓN Y TÉCNICA TEATRAL"
+ },
+ {
+   "codigo_junta": "7032",
+   "nombre_materia": "DIBUJO (CERÁMICO)"
+ },
+ {
+   "codigo_junta": "7060",
+   "nombre_materia": "EXPRESIÓN CORPORAL"
+ },
+ {
+   "codigo_junta": "7169",
+   "nombre_materia": "PRAC. DE LA ESPECIALIDAD CERÁMICA"
+ },
+ {
+   "codigo_junta": "7189",
+   "nombre_materia": "TALLER DE EXPRESION ARTISTICA MUSICAL"
+ },
+ {
+   "codigo_junta": "7190",
+   "nombre_materia": "TALLER DE CAPAC. PLÁSTICA P/ADULTO - DIBUJO"
+ },
+ {
+   "codigo_junta": "7191",
+   "nombre_materia": "TALLER DE EXPRESIÓN PLÁSTICA - INFANTO JUVENIL"
+ },
+ {
+   "codigo_junta": "7196",
+   "nombre_materia": "TALLER DE TEATRO INFANTO JUVENIL"
+ },
+ {
+   "codigo_junta": "7210",
+   "nombre_materia": "VOCALIZACIÓN"
+ },
+ {
+   "codigo_junta": "7249",
+   "nombre_materia": "CREATIVIDAD Y EXPRESIÓN EN ARTES VISUALES"
+ },
+ {
+   "codigo_junta": "7254",
+   "nombre_materia": "EXPRESIÓN ARTÍSTICA - ARTES VISUALES"
+ },
+ {
+   "codigo_junta": "7262",
+   "nombre_materia": "TALLER DE ARTES PLÁSTICAS"
+ },
+ {
+   "codigo_junta": "7265",
+   "nombre_materia": "TALLER DE EXPRESIÓN LITERARIA-INFANTO JUVENIL"
+ },
+ {
+   "codigo_junta": "7292",
+   "nombre_materia": "ACTIVIDADES PRÁCTICAS (TEJIDOS)"
+ },
+ {
+   "codigo_junta": "7296",
+   "nombre_materia": "DIBUJO TEJIDO"
+ },
+ {
+   "codigo_junta": "7318",
+   "nombre_materia": "ESPACIO DE DEFINICIÓN INSTITUCIONAL - ARTES VISUALES"
+ },
+ {
+   "codigo_junta": "7322",
+   "nombre_materia": "TALLER DE CAPAC. PLÁSTICA P/ADULTO - COLOR - PINTURA"
+ },
+ {
+   "codigo_junta": "7323",
+   "nombre_materia": "PRODUCCIÓN ARTÍSTICA - ARTES VISUALES"
+ },
+ {
+   "codigo_junta": "7324",
+   "nombre_materia": "PRÁCTICA EN CONTEXTO - ARTES VISUALES"
+ },
+ {
+   "codigo_junta": "7325",
+   "nombre_materia": "PRÁCTICA ESPECIALIZADA - MURAL"
+ },
+ {
+   "codigo_junta": "7326",
+   "nombre_materia": "PRODUCCIÓN ARTÍSTICA - MURAL"
+ },
+ {
+   "codigo_junta": "7327",
+   "nombre_materia": "PRÁCTICA EN CONTEXTO - MURAL"
+ },
+ {
+   "codigo_junta": "7329",
+   "nombre_materia": "ESPACIO DE DEFINICIÓN INSTITUCIONAL - CERÁMICA"
+ },
+ {
+   "codigo_junta": "7330",
+   "nombre_materia": "ESPACIO DE DEFINICIÓN INSTITUCIONAL - DISEÑO GRÁFICO"
+ },
+ {
+   "codigo_junta": "7335",
+   "nombre_materia": "ESPACIO DE DEFINICIÓN INSTITUCIONAL - MURAL"
+ },
+ {
+   "codigo_junta": "7336",
+   "nombre_materia": "ESPACIO DE DEFINICIÓN INSTITUCIONAL - PINTURA MURAL"
+ },
+ {
+   "codigo_junta": "7337",
+   "nombre_materia": "PRÁCTICA EN CONTEXTO - PINTURA MURAL"
+ },
+ {
+   "codigo_junta": "7343",
+   "nombre_materia": "PRODUCCIÓN ARTÍSTICA - PINTURA MURAL"
+ },
+ {
+   "codigo_junta": "7345",
+   "nombre_materia": "ESPACIO DE DEFINICIÓN INSTITUCIONAL - DIBUJO Y PINTURA"
+ },
+ {
+   "codigo_junta": "7491",
+   "nombre_materia": "PRÁCTICA EN CONTEXTO - CERÁMICA"
+ },
+ {
+   "codigo_junta": "7492",
+   "nombre_materia": "PRODUCCIÓN ARTISTICA - CERÁMICA"
+ },
+ {
+   "codigo_junta": "7503",
+   "nombre_materia": "PRODUCCIÓN ARTÍSTICA - DISEÑO GRÁFICO"
+ },
+ {
+   "codigo_junta": "7505",
+   "nombre_materia": "PRÁCTICA EN CONTEXTO - DISEÑO GRÁFICO"
+ },
+ {
+   "codigo_junta": "7506",
+   "nombre_materia": "PRÁCTICA EN CONTEXTO - DIBUJO Y PINTURA"
+ },
+ {
+   "codigo_junta": "7507",
+   "nombre_materia": "PRODUCCIÓN ARTÍSTICA - DIBUJO Y PINTURA"
+ },
+ {
+   "codigo_junta": "7743",
+   "nombre_materia": "PRÁCTICA ESPECIALIZADA - ARTES VISUALES"
+ },
+ {
+   "codigo_junta": "7744",
+   "nombre_materia": "PRÁCTICA ESPECIALIZADA - CERÁMICA "
+ },
+ {
+   "codigo_junta": "7745",
+   "nombre_materia": "PRÁCTICA ESPECIALIZADA - CERÁMICA ARTÍSTICA"
+ },
+ {
+   "codigo_junta": "7746",
+   "nombre_materia": "PRÁCTICA ESPECIALIZADA - CERÁMICA UTILITARIA"
+ },
+ {
+   "codigo_junta": "7747",
+   "nombre_materia": "PRÁCTICA ESPECIALIZADA - DIBUJO Y PINTURA"
+ },
+ {
+   "codigo_junta": "7748",
+   "nombre_materia": "PRÁCTICA ESPECIALIZADA - DISEÑO GRÁFICO"
+ },
+ {
+   "codigo_junta": "7750",
+   "nombre_materia": "PRÁCTICA ESPECIALIZADA - PINTURA MURAL"
+ },
+ {
+   "codigo_junta": "8007",
+   "nombre_materia": "LENGUA EXTRANJERA - INGLES"
+ },
+ {
+   "codigo_junta": "8009",
+   "nombre_materia": "MATEMÁTICA"
+ },
+ {
+   "codigo_junta": "8010",
+   "nombre_materia": "FÍSICA"
+ },
+ {
+   "codigo_junta": "8012",
+   "nombre_materia": "SOCIOLOGÍA"
+ },
+ {
+   "codigo_junta": "8013",
+   "nombre_materia": "PSICOLOGÍA SOCIAL"
+ },
+ {
+   "codigo_junta": "8014",
+   "nombre_materia": "QUÍMICA"
+ },
+ {
+   "codigo_junta": "8015",
+   "nombre_materia": "LENGUA Y LITERATURA"
+ },
+ {
+   "codigo_junta": "8022",
+   "nombre_materia": "TALLER DE CIUDADANÍA Y PARTICIPACIÓN"
+ },
+ {
+   "codigo_junta": "8023",
+   "nombre_materia": "CIENCIAS SOCIALES - HISTORIA"
+ },
+ {
+   "codigo_junta": "8024",
+   "nombre_materia": "CIENCIAS SOCIALES - GEOGRAFÍA"
+ },
+ {
+   "codigo_junta": "8025",
+   "nombre_materia": "CIENCIAS NATURALES - BIOLOGÍA"
+ },
+ {
+   "codigo_junta": "8026",
+   "nombre_materia": "FORMACIÓN PARA EL TRABAJO"
+ },
+ {
+   "codigo_junta": "8027",
+   "nombre_materia": "CIENCIAS NATURALES - FÍSICA-QUÍMICA"
+ },
+ {
+   "codigo_junta": "8028",
+   "nombre_materia": "TALLER DE ORIENTACIÓN VOCACIONAL - OCUPACIONAL"
+ },
+ {
+   "codigo_junta": "8029",
+   "nombre_materia": "PROBLEMATICAS ECONOMICAS ACTUALES"
+ },
+ {
+   "codigo_junta": "8030",
+   "nombre_materia": "DERECHO DEL TRABAJO Y LA SEGURIDAD SOCIAL"
+ },
+ {
+   "codigo_junta": "8031",
+   "nombre_materia": "TURISMO SOCIEDAD Y ECONOMIA"
+ },
+ {
+   "codigo_junta": "8032",
+   "nombre_materia": "AGRO Y AMBIENTE"
+ },
+ {
+   "codigo_junta": "8033",
+   "nombre_materia": "ANTROPOLOGIA SOCIAL Y CULTURAL"
+ },
+ {
+   "codigo_junta": "8035",
+   "nombre_materia": "CIENCIA SOCIEDAD Y DESARROLLO"
+ },
+ {
+   "codigo_junta": "8037",
+   "nombre_materia": "PROBLEMÁTICAS DE SALUD HUMANA Y AMBIENTAL"
+ },
+ {
+   "codigo_junta": "8038",
+   "nombre_materia": "ESPACIO Y SOCIEDAD EN ARGENTINA Y AMÉRICA LATINA"
+ },
+ {
+   "codigo_junta": "8039",
+   "nombre_materia": "ECONOMÍA Y GESTIÓN AGRO-AMBIENTAL REGIONAL"
+ },
+ {
+   "codigo_junta": "8040",
+   "nombre_materia": "PRODUCCIÓN AGROPECUARIA Y MODELOS PRODUCTIVOS"
+ },
+ {
+   "codigo_junta": "8041",
+   "nombre_materia": "ESPACIO DE VINCULACIÓN CON EL SECTOR DE LA ORIENTACIÓN (AGRO-AMBIENTE)"
+ },
+ {
+   "codigo_junta": "8042",
+   "nombre_materia": "ESPACIO DE VINCULACIÓN CON EL SECTOR DE LA ORIENTACIÓN (CIENCIAS SOCIALES Y HUMANIDADES)"
+ },
+ {
+   "codigo_junta": "8043",
+   "nombre_materia": "ESPACIO DE VINCULACIÓN CON EL SECTOR DE LA ORIENTACIÓN (CIENCIAS NATURALES)"
+ },
+ {
+   "codigo_junta": "8044",
+   "nombre_materia": "ESPACIO DE VINCULACIÓN CON EL SECTOR DE LA ORIENTACIÓN (ECONOMÍA Y ADMINISTRACIÓN)"
+ },
+ {
+   "codigo_junta": "8045",
+   "nombre_materia": "ESPACIO DE VINCULACIÓN CON EL SECTOR DE LA ORIENTACIÓN (TURISMO)"
+ },
+ {
+   "codigo_junta": "8046",
+   "nombre_materia": "ESPACIO DE VINCULACIÓN CON EL SECTOR DE LA ORIENTACIÓN (INFORMÁTICA)"
+ },
+ {
+   "codigo_junta": "8047",
+   "nombre_materia": "ESTADO Y ORGANIZACIONES SOCIALES"
+ },
+ {
+   "codigo_junta": "8048",
+   "nombre_materia": "GESTIÓN Y PROMOCIÓN SOCIO-CULTURAL"
+ },
+ {
+   "codigo_junta": "8049",
+   "nombre_materia": "AMBIENTE, DESARROLLO Y SOCIEDAD"
+ },
+ {
+   "codigo_junta": "8050",
+   "nombre_materia": "PROMOCIÓN DE LA SALUD PÚBLICA Y COMUNITARIA"
+ },
+ {
+   "codigo_junta": "8051",
+   "nombre_materia": "ECONOMÍA"
+ },
+ {
+   "codigo_junta": "8052",
+   "nombre_materia": "COOPERATIVAS Y ENTIDADES SIN FINES DE LUCRO"
+ },
+ {
+   "codigo_junta": "8053",
+   "nombre_materia": "TURISMO, PATRIMONIO HISTÓRICO - CULTURAL"
+ },
+ {
+   "codigo_junta": "8054",
+   "nombre_materia": "SERVICIOS TURÍSTICOS"
+ },
+ {
+   "codigo_junta": "8055",
+   "nombre_materia": "PROMOCIÓN Y POLÍTICA TURÍSTICA"
+ },
+ {
+   "codigo_junta": "8056",
+   "nombre_materia": "APLICACIONES WEB"
+ },
+ {
+   "codigo_junta": "8057",
+   "nombre_materia": "SISTEMA DE INFORMACION CONTABLE I Y II"
+ },
+ {
+   "codigo_junta": "8058",
+   "nombre_materia": "INFORMATICA I Y II"
+ },
+ {
+   "codigo_junta": "9004",
+   "nombre_materia": "EDUCACION FISICA"
+ },
+ {
+   "codigo_junta": "9005",
+   "nombre_materia": "MUSICA"
+ },
+ {
+   "codigo_junta": "A020",
+   "nombre_materia": "AYUDANTE TÉCNICO BELLAS ARTES"
+ },
+ {
+   "codigo_junta": "C001",
+   "nombre_materia": "MTRO. GRADO NIVEL PRIMARIO"
+ },
+ {
+   "codigo_junta": "C013",
+   "nombre_materia": "TALLER DE EDUCACION FISICA"
+ },
+ {
+   "codigo_junta": "C014",
+   "nombre_materia": "TALLER DE PLASTICA"
+ },
+ {
+   "codigo_junta": "C015",
+   "nombre_materia": "TALLER DE TEATRO"
+ },
+ {
+   "codigo_junta": "C016",
+   "nombre_materia": "TALLER DE FOLKLORE"
+ },
+ {
+   "codigo_junta": "C017",
+   "nombre_materia": "TALLER DE MUSICA"
+ },
+ {
+   "codigo_junta": "C018",
+   "nombre_materia": "TALLER DE IDIOMA (INGLES)"
+ },
+ {
+   "codigo_junta": "COD",
+   "nombre_materia": "DESCRIPCIÓN"
+ },
+ {
+   "codigo_junta": "COD.",
+   "nombre_materia": "DESCRIPCION"
+ },
+ {
+   "codigo_junta": "E012",
+   "nombre_materia": "MAESTRO DE GRADO - DISCAPACITADOS INTELECTUALES"
+ },
+ {
+   "codigo_junta": "E013",
+   "nombre_materia": "MAESTRO DE GRADO - DISCAPACITADOS DEL LENGUAJE Y AUDICION"
+ },
+ {
+   "codigo_junta": "E014",
+   "nombre_materia": "MAESTRO DE GRADO - DISCAPACITADOS VISUALES"
+ },
+ {
+   "codigo_junta": "E015",
+   "nombre_materia": "MAESTRO DE GRADO - DISCAPACITADOS PSICOMOTORES"
+ },
+ {
+   "codigo_junta": "E019",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPEDAGÓGICO - PSICOLOGÍA"
+ },
+ {
+   "codigo_junta": "E020",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPEDAGÓGICO - PSICOPEDAGOGIA"
+ },
+ {
+   "codigo_junta": "E022",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPEDAGÓGICO - FONOAUDIOLOGIA"
+ },
+ {
+   "codigo_junta": "E023",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPEDAGÓGICO - EDUCACIÓN PSICOMOTRIZ"
+ },
+ {
+   "codigo_junta": "E024",
+   "nombre_materia": "AYUDANTE DE GABINETE DE REHABIL. PSICOMOTRIZ KINESIOLOGICA"
+ },
+ {
+   "codigo_junta": "E029",
+   "nombre_materia": "AYUDANTE DE GABINETE DE TERAPIA OCUPACIONAL"
+ },
+ {
+   "codigo_junta": "E030",
+   "nombre_materia": "AYUDANTE DE GABINETE - ASISTENTE SOCIAL"
+ },
+ {
+   "codigo_junta": "E058",
+   "nombre_materia": "MAESTRO DE ATENC.TEMP.-DISCAPAC.AUDITIVOS-MODALIDAD BILINGÛE"
+ },
+ {
+   "codigo_junta": "E110",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPEDAGÓGICO - FISIOTERAPIA"
+ },
+ {
+   "codigo_junta": "E114",
+   "nombre_materia": "SECRETARIO DOCENTE"
+ },
+ {
+   "codigo_junta": "E116",
+   "nombre_materia": "MAESTRO DISCAPACITADOS AUDITIVOS - MODALIDAD BILINGUE"
+ },
+ {
+   "codigo_junta": "E117",
+   "nombre_materia": "PRECEPTOR - MODALIDAD BILINGUE"
+ },
+ {
+   "codigo_junta": "E118",
+   "nombre_materia": "SECRETARIO DOCENTE - MODALIDAD BILINGUE"
+ },
+ {
+   "codigo_junta": "E119",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPED. - PSICOPEDAGOGIA MODALIDAD BILINGUE"
+ },
+ {
+   "codigo_junta": "E120",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPED. - FONOAUDIOLOGIA MODALIDAD BILINGUE"
+ },
+ {
+   "codigo_junta": "E121",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPEDAG. - PSICOLOGÍA MODALIDAD BILINGUE"
+ },
+ {
+   "codigo_junta": "E122",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPED. METODOLOGÍA MODALIDAD BILINGUE"
+ },
+ {
+   "codigo_junta": "E123",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPED. - ASISTENTE SOCIAL MODALIDAD BILINGUE"
+ },
+ {
+   "codigo_junta": "E124",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPED. - PSICOMOTRICIDAD MODALIDAD BILINGUE"
+ },
+ {
+   "codigo_junta": "E125",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPEDAGÓGICO - METODOLOGÍA - DISC. INTELECTUALES"
+ },
+ {
+   "codigo_junta": "E126",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPEDAGÓGICO - METODOLOGÍA - DISC. VISUALES"
+ },
+ {
+   "codigo_junta": "E127",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOPEDAGÓGICO - METODOLOGÍA - DISC. DEL LENGUAJE Y AUDICION"
+ },
+ {
+   "codigo_junta": "E128",
+   "nombre_materia": "PROSECRETARIO DOCENTE"
+ },
+ {
+   "codigo_junta": "E139",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOMOTRICISTA PARA ESTIM. TEMPRANA"
+ },
+ {
+   "codigo_junta": "E140",
+   "nombre_materia": "AYUDANTE DE GABINETE PSICOFONAUDIOLOGICO PARA ESTIM. TEMPRANA"
+ },
+ {
+   "codigo_junta": "E141",
+   "nombre_materia": "BIBLIOTECARIO"
+ },
+ {
+   "codigo_junta": "E142",
+   "nombre_materia": "MAESTRO DE GRADO - MULTIMPEDIDOS"
+ },
+ {
+   "codigo_junta": "E145",
+   "nombre_materia": "PRECEPTOR ESCUELA DE DISCAPACITADOS INTELECTUALES"
+ },
+ {
+   "codigo_junta": "E146",
+   "nombre_materia": "PRECEPTOR PARA ESC. DE DISCAPACITADOS VISUALES"
+ },
+ {
+   "codigo_junta": "E147",
+   "nombre_materia": "PRECEPTOR PARA ESC. DE DISCAPACITADOS AUDITIVOS"
+ },
+ {
+   "codigo_junta": "E148",
+   "nombre_materia": "PRECEPTOR PARA DISCAPACITADOS PSICOMOTORES"
+ },
+ {
+   "codigo_junta": "E151",
+   "nombre_materia": "AYUDANTE TECNICO CON DESEMPEÑO EN EL ÁREA ENFERMERÍA "
+ },
+ {
+   "codigo_junta": "E201",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - CORTE Y CONFECCION"
+ },
+ {
+   "codigo_junta": "E202",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - ACTIVIDADES DE LA VIDA DIARIA - DISC. INTELECTUALES"
+ },
+ {
+   "codigo_junta": "E203",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - ACTIVIDADES DE LA VIDA DIARIA - DISC. VISUALES"
+ },
+ {
+   "codigo_junta": "E204",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - ACTIVIDADES DE LA VIDA DIARIA - DISC. DEL LENGUAJE Y AUDICION"
+ },
+ {
+   "codigo_junta": "E205",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - ACTIVIDADES DE LA VIDA DIARIA - DISC. PSICOMOTORES"
+ },
+ {
+   "codigo_junta": "E206",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - ALBAÑILERIA"
+ },
+ {
+   "codigo_junta": "E207",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - APICULTURA"
+ },
+ {
+   "codigo_junta": "E208",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - CARPINTERIA EBANISTA"
+ },
+ {
+   "codigo_junta": "E209",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - COCINA"
+ },
+ {
+   "codigo_junta": "E210",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - COMPUTACIÓN DISC. INTELECTUALES"
+ },
+ {
+   "codigo_junta": "E211",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - COMPUTACIÓN DISC. VISUALES"
+ },
+ {
+   "codigo_junta": "E212",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - COMPUTACIÓN DISC. AUDITIVOS"
+ },
+ {
+   "codigo_junta": "E213",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - COMPUTACIÓN DISC. PSICOMOTORES"
+ },
+ {
+   "codigo_junta": "E214",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - DIBUJO, PINTURA Y PLASTICA"
+ },
+ {
+   "codigo_junta": "E215",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - EDUCACIÓN FISICA"
+ },
+ {
+   "codigo_junta": "E216",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - EDUCACIÓN TECNOLÓGICA DISC. INTELECTUALES"
+ },
+ {
+   "codigo_junta": "E217",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - EDUCACIÓN TECNOLÓGICA DISC. VISUALES"
+ },
+ {
+   "codigo_junta": "E218",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - EDUCACIÓN TECNOLÓGICA DISC. AUDITIVOS"
+ },
+ {
+   "codigo_junta": "E219",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - EDUCACIÓN TECNOLÓGICA DISC. PSICOMOTORES"
+ },
+ {
+   "codigo_junta": "E220",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - ELECTRICIDAD RADIO Y TV"
+ },
+ {
+   "codigo_junta": "E221",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - EXPRESIÓN CORPORAL DISC. INTELECTUALES"
+ },
+ {
+   "codigo_junta": "E222",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - EXPRESIÓN CORPORAL DISC. VISUALES"
+ },
+ {
+   "codigo_junta": "E223",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - EXPRESIÓN CORPORAL DISC. AUDITIVOS"
+ },
+ {
+   "codigo_junta": "E224",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - EXPRESIÓN CORPORAL DISC. PSICOMOTORES"
+ },
+ {
+   "codigo_junta": "E225",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - HERRERIA"
+ },
+ {
+   "codigo_junta": "E226",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - HUERTA Y JARDINERIA"
+ },
+ {
+   "codigo_junta": "E227",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - LABORES BORDEADO LENCERIA"
+ },
+ {
+   "codigo_junta": "E228",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - MANUALIDADES DISC. INTELECTUALES"
+ },
+ {
+   "codigo_junta": "E229",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - MANUALIDADES DISC. VISUALES"
+ },
+ {
+   "codigo_junta": "E230",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - MANUALIDADES DISC. AUDITIVOS"
+ },
+ {
+   "codigo_junta": "E231",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - MANUALIDADES DISC. PSICOMOTORES"
+ },
+ {
+   "codigo_junta": "E232",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - MECANOGRAFIA BRAILE Y ESCRITURA"
+ },
+ {
+   "codigo_junta": "E233",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - MODELADO ESPECIALIDAD CERAMICA"
+ },
+ {
+   "codigo_junta": "E234",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - MUSICA"
+ },
+ {
+   "codigo_junta": "E235",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - ORIENTACION Y MOVILIDAD"
+ },
+ {
+   "codigo_junta": "E236",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - PLEGADO Y CARTONADO"
+ },
+ {
+   "codigo_junta": "E237",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - REEDUCADORA VOCAL"
+ },
+ {
+   "codigo_junta": "E238",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - TEATRO Y TÍTERES DISC. INTELECTUALES"
+ },
+ {
+   "codigo_junta": "E239",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - TEATRO Y TÍTERES DISC. VISUALES"
+ },
+ {
+   "codigo_junta": "E240",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - TEATRO Y TÍTERES DISC. AUDITIVOS"
+ },
+ {
+   "codigo_junta": "E241",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - TEATRO Y TÍTERES DISC. PSICOMOTORES"
+ },
+ {
+   "codigo_junta": "E242",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - TEJIDOS"
+ },
+ {
+   "codigo_junta": "E243",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - ZAPATERIA"
+ },
+ {
+   "codigo_junta": "E244",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - ENCUADERNACION"
+ },
+ {
+   "codigo_junta": "E245",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - CESTERIA, TRENZADO, CUERO, HILO SISAL, YUTE, FIBRAS."
+ },
+ {
+   "codigo_junta": "E246",
+   "nombre_materia": "MAESTRO DE ENS. PRÁCTICA U HORAS CÁTEDRAS - ESPECIALIDAD- PANADERIA"
+ },
+ {
+   "codigo_junta": "E247",
+   "nombre_materia": "AYUDANTE TÉCNICO INTERPRETE EN LENGUAS DE SEÑAS ARGENTINAS "
+ },
+ {
+   "codigo_junta": "M001",
+   "nombre_materia": "M.E.P. ESPEC. PROGRAMACION"
+ },
+ {
+   "codigo_junta": "M002",
+   "nombre_materia": "M.E.P. ESPEC. MECANICA"
+ },
+ {
+   "codigo_junta": "M003",
+   "nombre_materia": "M.E.P. ESPEC. OPTICA"
+ },
+ {
+   "codigo_junta": "M004",
+   "nombre_materia": "M.E.P. ESPEC. AERONAUTICA"
+ },
+ {
+   "codigo_junta": "M005",
+   "nombre_materia": "M.E.P. ESPEC. AVIONICA"
+ },
+ {
+   "codigo_junta": "M007",
+   "nombre_materia": "M.E.P. ESPEC. INFORMATICA"
+ },
+ {
+   "codigo_junta": "M008",
+   "nombre_materia": "M.E.P. ESPEC. AGROPECUARIA"
+ },
+ {
+   "codigo_junta": "M009",
+   "nombre_materia": "M.E.P. ESPEC. ALIMENTACIÓN"
+ },
+ {
+   "codigo_junta": "M010",
+   "nombre_materia": "M.E.P. ESPEC. AUTOMOTORES"
+ },
+ {
+   "codigo_junta": "M011",
+   "nombre_materia": "M.E.P. ESPEC. CARPINTERÍA EBANISTA"
+ },
+ {
+   "codigo_junta": "M013",
+   "nombre_materia": "M.E.P. ESPEC. CONSTRUCCIONES CIVILES"
+ },
+ {
+   "codigo_junta": "M014",
+   "nombre_materia": "M.E.P. ESPEC. ELECTRICIDAD"
+ },
+ {
+   "codigo_junta": "M015",
+   "nombre_materia": "M.E.P. ESPEC. QUÍMICA"
+ },
+ {
+   "codigo_junta": "M016",
+   "nombre_materia": "M.E.P. ESPEC. ELECTRO - MECÁNICA"
+ },
+ {
+   "codigo_junta": "M017",
+   "nombre_materia": "M.E.P. ESPEC. ELECTRÓNICA"
+ },
+ {
+   "codigo_junta": "M018",
+   "nombre_materia": "M.E.P. ESPEC. MINERÍA"
+ },
+ {
+   "codigo_junta": "M020",
+   "nombre_materia": "M.E.P. ESPEC. INDUSTRIAS DE LA MADERA"
+ },
+ {
+   "codigo_junta": "P031",
+   "nombre_materia": "MTRO. ENS. PRACT. -MÚSICA-"
+ },
+ {
+   "codigo_junta": "P078",
+   "nombre_materia": "MTRO. GRADO NIVEL PRIMARIO"
+ },
+ {
+   "codigo_junta": "P079",
+   "nombre_materia": "MTRO. EDUC. PRE-PRIMARIA"
+ },
+ {
+   "codigo_junta": "P082",
+   "nombre_materia": "MTRO. ENS. PRAC. EDUCACIÓN FÍSICA"
+ },
+ {
+   "codigo_junta": "P116",
+   "nombre_materia": "MTRO. ENS. PRAC. INICIACIÓN TECNOLÓGICA"
+ },
+ {
+   "codigo_junta": "P122",
+   "nombre_materia": "MTRO. ENS. PRAC. PLÁSTICA"
+ },
+ {
+   "codigo_junta": "P136",
+   "nombre_materia": "MTRO. ENS. PRAC. INGLES"
+ },
+ {
+   "codigo_junta": "X001",
+   "nombre_materia": "PRECEPTOR"
+ },
+ {
+   "codigo_junta": "X002",
+   "nombre_materia": "BIBLIOTECARIO"
+ },
+ {
+   "codigo_junta": "X003",
+   "nombre_materia": "PRO-SECRETARIO DOCENTE"
+ },
+ {
+   "codigo_junta": "X004",
+   "nombre_materia": "SECRETARIO DOCENTE"
+ },
+ {
+   "codigo_junta": "X005",
+   "nombre_materia": "AYUDANTE GAB. PSICOPEDAGÓGICO"
+ },
+ {
+   "codigo_junta": "X009",
+   "nombre_materia": "AYUDANTE TÉCNICO CON DESEMPEÑO EN ÁREAS ADMINISTRATIVAS "
+ },
+ {
+   "codigo_junta": "X010",
+   "nombre_materia": "AYUDANTE TÉCNICO CON DESEMPEÑO EN LOS LABORATORIOS DE CS. NATURALES Y/O FÍSICO-QUÍMICA"
+ },
+ {
+   "codigo_junta": "X011",
+   "nombre_materia": "AYUDANTE TÉCNICO CON DESEMPEÑO EN EL LABORATORIO DE INFORMÁTICA "
+ },
+ {
+   "codigo_junta": "X012",
+   "nombre_materia": "AYUDANTE TÉCNICO CON DESEMPEÑO AUDIOVISUAL"
+ },
+ {
+   "codigo_junta": "X051",
+   "nombre_materia": "TUTOR RURAL"
+ },
+ {
+   "codigo_junta": "X052",
+   "nombre_materia": "PRECEPTOR DE ALBERGUE"
+ }
+]

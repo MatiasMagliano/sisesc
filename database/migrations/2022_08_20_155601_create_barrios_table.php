@@ -1,6 +1,5 @@
 <?php
 
-use App\Models\Padre;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -14,13 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('familias', function (Blueprint $table) {
+        Schema::create('barrios', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('jefe_id');
-            $table->integer('miembros');
-            $table->timestamps();
-
-            $table->foreign('jefe_id')->references('id')->on('padres');
+            $table->string('barrio', 100);
         });
     }
 
@@ -31,6 +26,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('familias');
+        Schema::dropIfExists('barrios');
     }
 };

@@ -35,8 +35,6 @@ class UsuariosSeeder extends Seeder
         $usuario->assignRole($role1);
 
 
-
-
         // ROL DE PRECEPTOR
         Permission::create(['name' => 'menu-preceptor']);
         Permission::create(['name' => 'tomar asistencia']);
@@ -50,9 +48,28 @@ class UsuariosSeeder extends Seeder
             'name'                  => 'Mabel Cortez',
             'email'                 => 'mabel.cortez@example.com',
             'email_verified_at'     => now(),
-            'password'              => Hash::make('mcortez'),
+            'password'              => Hash::make('TkH2DUBvCY4rFm5'),
             'remember_token'        => Str::random(10),
         ]);
         $usuario2->assignRole($role2);
+
+
+        // ROL DE SECRETARIO
+        Permission::create(['name' => 'menu-secretario']);
+        Permission::create(['name' => 'crear inscripcion']);
+
+        $role3 = Role::create(['name' => 'secretario']);
+        $role3->givePermissionTo('menu-secretario');
+        $role3->givePermissionTo('crear inscripcion');
+
+        // se crean usuarios y roles a los que se le asignan permisos existentes
+        $usuario3 = User::factory()->create([
+            'name'                  => 'Martín Hoffman',
+            'email'                 => 'martin.hoffman@example.com',
+            'email_verified_at'     => now(),
+            'password'              => Hash::make('M6hGSN8pDwcGRxJ'),
+            'remember_token'        => Str::random(10),
+        ]);
+        $usuario3->assignRole($role3);
     }
 }

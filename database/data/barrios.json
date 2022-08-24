@@ -1,0 +1,1682 @@
+[
+    {
+      "id": 1,
+      "barrio": "1 de mayo"
+    },
+    {
+      "id": 2,
+      "barrio": "16 de noviembre"
+    },
+    {
+      "id": 3,
+      "barrio": "2 de septiembre"
+    },
+    {
+      "id": 4,
+      "barrio": "20 de junio"
+    },
+    {
+      "id": 5,
+      "barrio": "23 de abril"
+    },
+    {
+      "id": 6,
+      "barrio": "4 de febrero"
+    },
+    {
+      "id": 7,
+      "barrio": "Achaval Peña"
+    },
+    {
+      "id": 8,
+      "barrio": "Acosta"
+    },
+    {
+      "id": 9,
+      "barrio": "Aeronáutico"
+    },
+    {
+      "id": 10,
+      "barrio": "Alberdi"
+    },
+    {
+      "id": 11,
+      "barrio": "Alberto"
+    },
+    {
+      "id": 12,
+      "barrio": "Alborada Norte"
+    },
+    {
+      "id": 13,
+      "barrio": "Alborada Sur"
+    },
+    {
+      "id": 14,
+      "barrio": "Alejandro Centeno"
+    },
+    {
+      "id": 15,
+      "barrio": "Almirante Brown"
+    },
+    {
+      "id": 16,
+      "barrio": "Alta Córdoba"
+    },
+    {
+      "id": 17,
+      "barrio": "Altamira"
+    },
+    {
+      "id": 18,
+      "barrio": "Alto Alberdi"
+    },
+    {
+      "id": 19,
+      "barrio": "Alto Hermoso"
+    },
+    {
+      "id": 20,
+      "barrio": "Alto Palermo"
+    },
+    {
+      "id": 21,
+      "barrio": "Alto Verde"
+    },
+    {
+      "id": 22,
+      "barrio": "Altos de Vélez Sársfield"
+    },
+    {
+      "id": 23,
+      "barrio": "Altos de Villa Cabrera"
+    },
+    {
+      "id": 24,
+      "barrio": "Altos San Martín"
+    },
+    {
+      "id": 25,
+      "barrio": "Altos Sud de San Vicente"
+    },
+    {
+      "id": 26,
+      "barrio": "Ameghino Norte"
+    },
+    {
+      "id": 27,
+      "barrio": "Ameghino Sud"
+    },
+    {
+      "id": 28,
+      "barrio": "Ampliación 1 De Mayo"
+    },
+    {
+      "id": 29,
+      "barrio": "Ampliación Altamira"
+    },
+    {
+      "id": 30,
+      "barrio": "Ampliación Benjamin Matienzo"
+    },
+    {
+      "id": 31,
+      "barrio": "Ampliación Cerveceros"
+    },
+    {
+      "id": 32,
+      "barrio": "Ampliación Empalme"
+    },
+    {
+      "id": 33,
+      "barrio": "Ampliación Farina"
+    },
+    {
+      "id": 34,
+      "barrio": "Ampliación Jardín Espinosa"
+    },
+    {
+      "id": 35,
+      "barrio": "Ampliación Kennedy"
+    },
+    {
+      "id": 36,
+      "barrio": "Ampliación Las Palmas"
+    },
+    {
+      "id": 37,
+      "barrio": "Ampliación Los Plátanos"
+    },
+    {
+      "id": 38,
+      "barrio": "Ampliación Palmar"
+    },
+    {
+      "id": 39,
+      "barrio": "Ampliación Panamericano"
+    },
+    {
+      "id": 40,
+      "barrio": "Ampliación Poeta Lugones"
+    },
+    {
+      "id": 41,
+      "barrio": "Ampliación Pueyrredon"
+    },
+    {
+      "id": 42,
+      "barrio": "Ampliación Residencial America"
+    },
+    {
+      "id": 43,
+      "barrio": "Ampliación Rosedal"
+    },
+    {
+      "id": 44,
+      "barrio": "Ampliación San Fernando"
+    },
+    {
+      "id": 45,
+      "barrio": "Ampliación San Pablo"
+    },
+    {
+      "id": 46,
+      "barrio": "Ampliación Urca"
+    },
+    {
+      "id": 47,
+      "barrio": "Ampliación Vélez Sarsfield"
+    },
+    {
+      "id": 48,
+      "barrio": "Ampliación Yapeyu"
+    },
+    {
+      "id": 49,
+      "barrio": "Ana Maria Zumaran"
+    },
+    {
+      "id": 50,
+      "barrio": "Apeadero La Tablada"
+    },
+    {
+      "id": 51,
+      "barrio": "Arcos I"
+    },
+    {
+      "id": 52,
+      "barrio": "Argüello"
+    },
+    {
+      "id": 53,
+      "barrio": "Argüello Lourdes"
+    },
+    {
+      "id": 54,
+      "barrio": "Argüello Norte"
+    },
+    {
+      "id": 55,
+      "barrio": "Arturo Capdevila"
+    },
+    {
+      "id": 56,
+      "barrio": "Ate"
+    },
+    {
+      "id": 57,
+      "barrio": "Autódromo"
+    },
+    {
+      "id": 58,
+      "barrio": "Avenida"
+    },
+    {
+      "id": 59,
+      "barrio": "Ayacucho"
+    },
+    {
+      "id": 60,
+      "barrio": "Bajada De Piedra"
+    },
+    {
+      "id": 61,
+      "barrio": "Bajada San Roque"
+    },
+    {
+      "id": 62,
+      "barrio": "Bajo Galan"
+    },
+    {
+      "id": 63,
+      "barrio": "Bajo General Paz"
+    },
+    {
+      "id": 64,
+      "barrio": "Bella Vista"
+    },
+    {
+      "id": 65,
+      "barrio": "Bella Vista Oeste"
+    },
+    {
+      "id": 66,
+      "barrio": "Betania"
+    },
+    {
+      "id": 67,
+      "barrio": "Bialet Masse"
+    },
+    {
+      "id": 68,
+      "barrio": "Boedo"
+    },
+    {
+      "id": 69,
+      "barrio": "Brigadier San Martín"
+    },
+    {
+      "id": 70,
+      "barrio": "Cabaña del Pilar"
+    },
+    {
+      "id": 71,
+      "barrio": "Cabo Farina"
+    },
+    {
+      "id": 72,
+      "barrio": "Caceres"
+    },
+    {
+      "id": 73,
+      "barrio": "California"
+    },
+    {
+      "id": 74,
+      "barrio": "Camino A Villa Posse"
+    },
+    {
+      "id": 75,
+      "barrio": "Carbo"
+    },
+    {
+      "id": 76,
+      "barrio": "Carola Lorenzini"
+    },
+    {
+      "id": 77,
+      "barrio": "Carrara"
+    },
+    {
+      "id": 78,
+      "barrio": "Caseros"
+    },
+    {
+      "id": 79,
+      "barrio": "Centro"
+    },
+    {
+      "id": 80,
+      "barrio": "Centro América"
+    },
+    {
+      "id": 81,
+      "barrio": "Cerro Chico"
+    },
+    {
+      "id": 82,
+      "barrio": "Cerro de las Rosas"
+    },
+    {
+      "id": 83,
+      "barrio": "Cerro Norte"
+    },
+    {
+      "id": 84,
+      "barrio": "Cerveceros"
+    },
+    {
+      "id": 85,
+      "barrio": "Chateau Carreras"
+    },
+    {
+      "id": 86,
+      "barrio": "Ciudadela"
+    },
+    {
+      "id": 87,
+      "barrio": "Cofico"
+    },
+    {
+      "id": 88,
+      "barrio": "Colinas de Bella Vista"
+    },
+    {
+      "id": 89,
+      "barrio": "Colinas de Vélez Sársfield"
+    },
+    {
+      "id": 90,
+      "barrio": "Colinas del Cerro"
+    },
+    {
+      "id": 91,
+      "barrio": "Colinas del Cerro Ampliación"
+    },
+    {
+      "id": 92,
+      "barrio": "Colón"
+    },
+    {
+      "id": 93,
+      "barrio": "Colonia Lola"
+    },
+    {
+      "id": 94,
+      "barrio": "Comandante Espora"
+    },
+    {
+      "id": 95,
+      "barrio": "Comercial"
+    },
+    {
+      "id": 96,
+      "barrio": "Congreso"
+    },
+    {
+      "id": 97,
+      "barrio": "Consorcio Esperanza"
+    },
+    {
+      "id": 98,
+      "barrio": "Cooperativa La Unidad"
+    },
+    {
+      "id": 99,
+      "barrio": "Córdoba 4"
+    },
+    {
+      "id": 100,
+      "barrio": "Córdoba 5"
+    },
+    {
+      "id": 101,
+      "barrio": "Corral de Palos"
+    },
+    {
+      "id": 102,
+      "barrio": "Country Club"
+    },
+    {
+      "id": 103,
+      "barrio": "Country Fortín del Pozo"
+    },
+    {
+      "id": 104,
+      "barrio": "Country Jockey Club"
+    },
+    {
+      "id": 105,
+      "barrio": "Country Las Delicias"
+    },
+    {
+      "id": 106,
+      "barrio": "Country Lomas de la Carolina"
+    },
+    {
+      "id": 107,
+      "barrio": "Cofico"
+    },
+    {
+      "id": 108,
+      "barrio": "Crisol Norte"
+    },
+    {
+      "id": 109,
+      "barrio": "Crisol Sud"
+    },
+    {
+      "id": 110,
+      "barrio": "Cupani"
+    },
+    {
+      "id": 111,
+      "barrio": "De Los Bioquímicos"
+    },
+    {
+      "id": 112,
+      "barrio": "Dean Funes"
+    },
+    {
+      "id": 113,
+      "barrio": "Ducasse"
+    },
+    {
+      "id": 114,
+      "barrio": "Ejército Argentino"
+    },
+    {
+      "id": 115,
+      "barrio": "El Cabildo"
+    },
+    {
+      "id": 116,
+      "barrio": "El Cerrito"
+    },
+    {
+      "id": 117,
+      "barrio": "El Pueblito"
+    },
+    {
+      "id": 118,
+      "barrio": "El Quebracho"
+    },
+    {
+      "id": 119,
+      "barrio": "El Refugio"
+    },
+    {
+      "id": 120,
+      "barrio": "El Trébol"
+    },
+    {
+      "id": 121,
+      "barrio": "Emaus"
+    },
+    {
+      "id": 122,
+      "barrio": "Empalme"
+    },
+    {
+      "id": 123,
+      "barrio": "Empalme Casas De Obreros Y Empleados"
+    },
+    {
+      "id": 124,
+      "barrio": "Escobar"
+    },
+    {
+      "id": 125,
+      "barrio": "Estación Flores"
+    },
+    {
+      "id": 126,
+      "barrio": "Ferrer"
+    },
+    {
+      "id": 127,
+      "barrio": "Ferreyra"
+    },
+    {
+      "id": 128,
+      "barrio": "Ferroviario Mitre"
+    },
+    {
+      "id": 129,
+      "barrio": "Finca La Dorotea"
+    },
+    {
+      "id": 130,
+      "barrio": "General Arenales"
+    },
+    {
+      "id": 131,
+      "barrio": "General Artigas"
+    },
+    {
+      "id": 132,
+      "barrio": "General Belgrano"
+    },
+    {
+      "id": 133,
+      "barrio": "General Bustos"
+    },
+    {
+      "id": 134,
+      "barrio": "General Mosconi"
+    },
+    {
+      "id": 135,
+      "barrio": "General Paz"
+    },
+    {
+      "id": 136,
+      "barrio": "General Pueyrredon"
+    },
+    {
+      "id": 137,
+      "barrio": "General Savio"
+    },
+    {
+      "id": 138,
+      "barrio": "Granadero Pringles"
+    },
+    {
+      "id": 139,
+      "barrio": "Granja De Funes"
+    },
+    {
+      "id": 140,
+      "barrio": "Guarnición Aérea Cba"
+    },
+    {
+      "id": 141,
+      "barrio": "Guarnición Militar Cba"
+    },
+    {
+      "id": 142,
+      "barrio": "Guayaquil"
+    },
+    {
+      "id": 143,
+      "barrio": "Güemes"
+    },
+    {
+      "id": 144,
+      "barrio": "Guiñazu"
+    },
+    {
+      "id": 145,
+      "barrio": "Guiñazu Sud"
+    },
+    {
+      "id": 146,
+      "barrio": "Hipólito Yrigoyen"
+    },
+    {
+      "id": 147,
+      "barrio": "Hogar Propio"
+    },
+    {
+      "id": 148,
+      "barrio": "Horizonte"
+    },
+    {
+      "id": 149,
+      "barrio": "Inaudi"
+    },
+    {
+      "id": 150,
+      "barrio": "Independencia"
+    },
+    {
+      "id": 151,
+      "barrio": "Industrial Este"
+    },
+    {
+      "id": 152,
+      "barrio": "Industrial Oeste"
+    },
+    {
+      "id": 153,
+      "barrio": "Ipona"
+    },
+    {
+      "id": 154,
+      "barrio": "Ipv Ituzaingo Anexo"
+    },
+    {
+      "id": 155,
+      "barrio": "Irupe"
+    },
+    {
+      "id": 156,
+      "barrio": "Ituzaingo"
+    },
+    {
+      "id": 157,
+      "barrio": "Ituzaingo Anexo"
+    },
+    {
+      "id": 158,
+      "barrio": "Jardín"
+    },
+    {
+      "id": 159,
+      "barrio": "Jardín Del Pilar"
+    },
+    {
+      "id": 160,
+      "barrio": "Jardín Del Sud"
+    },
+    {
+      "id": 161,
+      "barrio": "Jardín Espinosa"
+    },
+    {
+      "id": 162,
+      "barrio": "Jardín Hipódromo"
+    },
+    {
+      "id": 163,
+      "barrio": "Jeronimo Luis De Cabrera"
+    },
+    {
+      "id": 164,
+      "barrio": "Jockey Club"
+    },
+    {
+      "id": 165,
+      "barrio": "José Hernández"
+    },
+    {
+      "id": 166,
+      "barrio": "José I Rucci"
+    },
+    {
+      "id": 167,
+      "barrio": "José Ignacio Díaz Sección 1"
+    },
+    {
+      "id": 168,
+      "barrio": "José Ignacio Diaz Sección 2"
+    },
+    {
+      "id": 169,
+      "barrio": "José Ignacio Diaz Sección 3"
+    },
+    {
+      "id": 170,
+      "barrio": "José Ignacio Diaz Sección 4"
+    },
+    {
+      "id": 171,
+      "barrio": "José Ignacio Diaz Sección 5"
+    },
+    {
+      "id": 172,
+      "barrio": "Juan B Justo"
+    },
+    {
+      "id": 173,
+      "barrio": "Juan Xxiii"
+    },
+    {
+      "id": 174,
+      "barrio": "Juniors"
+    },
+    {
+      "id": 175,
+      "barrio": "Kairos"
+    },
+    {
+      "id": 176,
+      "barrio": "Kennedy"
+    },
+    {
+      "id": 177,
+      "barrio": "La Carolina"
+    },
+    {
+      "id": 178,
+      "barrio": "La Floresta"
+    },
+    {
+      "id": 179,
+      "barrio": "La France"
+    },
+    {
+      "id": 180,
+      "barrio": "La Fraternidad"
+    },
+    {
+      "id": 181,
+      "barrio": "La Hortensia"
+    },
+    {
+      "id": 182,
+      "barrio": "La Salle"
+    },
+    {
+      "id": 183,
+      "barrio": "La Toma"
+    },
+    {
+      "id": 184,
+      "barrio": "Lamadrid"
+    },
+    {
+      "id": 185,
+      "barrio": "Las Dalias"
+    },
+    {
+      "id": 186,
+      "barrio": "Las Delicias"
+    },
+    {
+      "id": 187,
+      "barrio": "Las Flores"
+    },
+    {
+      "id": 188,
+      "barrio": "Las Lilas"
+    },
+    {
+      "id": 189,
+      "barrio": "Las Magnolias"
+    },
+    {
+      "id": 190,
+      "barrio": "Las Margaritas"
+    },
+    {
+      "id": 191,
+      "barrio": "Las Palmas"
+    },
+    {
+      "id": 192,
+      "barrio": "Las Palmas Anexo"
+    },
+    {
+      "id": 193,
+      "barrio": "Las Playas"
+    },
+    {
+      "id": 194,
+      "barrio": "Las Rosas"
+    },
+    {
+      "id": 195,
+      "barrio": "Las Violetas"
+    },
+    {
+      "id": 196,
+      "barrio": "Liceo General Paz"
+    },
+    {
+      "id": 197,
+      "barrio": "Lomas De San Martín"
+    },
+    {
+      "id": 198,
+      "barrio": "Lomas Del Suquia"
+    },
+    {
+      "id": 199,
+      "barrio": "Los Álamos"
+    },
+    {
+      "id": 200,
+      "barrio": "Los Ángeles"
+    },
+    {
+      "id": 201,
+      "barrio": "Los Boulevares"
+    },
+    {
+      "id": 202,
+      "barrio": "Los Ceibos"
+    },
+    {
+      "id": 203,
+      "barrio": "Los Eucaliptus"
+    },
+    {
+      "id": 204,
+      "barrio": "Los Filtros"
+    },
+    {
+      "id": 205,
+      "barrio": "Los Gigantes"
+    },
+    {
+      "id": 206,
+      "barrio": "Los Granados"
+    },
+    {
+      "id": 207,
+      "barrio": "Los Jacarandaes"
+    },
+    {
+      "id": 208,
+      "barrio": "Los Josefinos"
+    },
+    {
+      "id": 209,
+      "barrio": "Los Naranjos"
+    },
+    {
+      "id": 210,
+      "barrio": "Los Olmos"
+    },
+    {
+      "id": 211,
+      "barrio": "Los Olmos Sud"
+    },
+    {
+      "id": 212,
+      "barrio": "Los Paraísos"
+    },
+    {
+      "id": 213,
+      "barrio": "Los Pinos"
+    },
+    {
+      "id": 214,
+      "barrio": "Los Plátanos"
+    },
+    {
+      "id": 215,
+      "barrio": "Los Principios"
+    },
+    {
+      "id": 216,
+      "barrio": "Los Robles"
+    },
+    {
+      "id": 217,
+      "barrio": "Los Sauces"
+    },
+    {
+      "id": 218,
+      "barrio": "Maipú Sección 1"
+    },
+    {
+      "id": 219,
+      "barrio": "Maipú Sección 2"
+    },
+    {
+      "id": 220,
+      "barrio": "Maldonado"
+    },
+    {
+      "id": 221,
+      "barrio": "Marcelo T De Alvear"
+    },
+    {
+      "id": 222,
+      "barrio": "Marcos Sastre"
+    },
+    {
+      "id": 223,
+      "barrio": "Marechal"
+    },
+    {
+      "id": 224,
+      "barrio": "Maria Lastenia"
+    },
+    {
+      "id": 225,
+      "barrio": "Mariano Balcarce"
+    },
+    {
+      "id": 226,
+      "barrio": "Mariano Fragueiro"
+    },
+    {
+      "id": 227,
+      "barrio": "Marques Anexo"
+    },
+    {
+      "id": 228,
+      "barrio": "Marques De Sobremonte"
+    },
+    {
+      "id": 229,
+      "barrio": "Muller"
+    },
+    {
+      "id": 230,
+      "barrio": "Maurizi"
+    },
+    {
+      "id": 231,
+      "barrio": "Mercantil"
+    },
+    {
+      "id": 232,
+      "barrio": "Militar General Deheza"
+    },
+    {
+      "id": 233,
+      "barrio": "Mirador"
+    },
+    {
+      "id": 234,
+      "barrio": "Miralta"
+    },
+    {
+      "id": 235,
+      "barrio": "Mirizzi"
+    },
+    {
+      "id": 236,
+      "barrio": "Mitre"
+    },
+    {
+      "id": 237,
+      "barrio": "Nicolas Avellaneda"
+    },
+    {
+      "id": 238,
+      "barrio": "Nuestro Hogar I"
+    },
+    {
+      "id": 239,
+      "barrio": "Nueva Córdoba"
+    },
+    {
+      "id": 240,
+      "barrio": "Nueva Córdoba Anexa"
+    },
+    {
+      "id": 241,
+      "barrio": "Nueva Italia"
+    },
+    {
+      "id": 242,
+      "barrio": "Obrero"
+    },
+    {
+      "id": 243,
+      "barrio": "Observatorio"
+    },
+    {
+      "id": 244,
+      "barrio": "Ombu"
+    },
+    {
+      "id": 245,
+      "barrio": "Oña"
+    },
+    {
+      "id": 246,
+      "barrio": "OSN"
+    },
+    {
+      "id": 247,
+      "barrio": "Padre Claret"
+    },
+    {
+      "id": 248,
+      "barrio": "Palermo Bajo"
+    },
+    {
+      "id": 249,
+      "barrio": "Palmar"
+    },
+    {
+      "id": 250,
+      "barrio": "Panamericano"
+    },
+    {
+      "id": 251,
+      "barrio": "Parque Alameda"
+    },
+    {
+      "id": 252,
+      "barrio": "Parque Atlantica"
+    },
+    {
+      "id": 253,
+      "barrio": "Parque Capital"
+    },
+    {
+      "id": 254,
+      "barrio": "Parque Capital Sud"
+    },
+    {
+      "id": 255,
+      "barrio": "Parque Chacabuco"
+    },
+    {
+      "id": 256,
+      "barrio": "Parque Corema"
+    },
+    {
+      "id": 257,
+      "barrio": "Parque De La Vega Tres"
+    },
+    {
+      "id": 258,
+      "barrio": "Parque Don Bosco"
+    },
+    {
+      "id": 259,
+      "barrio": "Parque Futura"
+    },
+    {
+      "id": 260,
+      "barrio": "Parque Jorge Newbery"
+    },
+    {
+      "id": 261,
+      "barrio": "Parque Latino"
+    },
+    {
+      "id": 262,
+      "barrio": "Parque Liceo Sección 1"
+    },
+    {
+      "id": 263,
+      "barrio": "Parque Liceo Sección 2"
+    },
+    {
+      "id": 264,
+      "barrio": "Parque Liceo Sección 3"
+    },
+    {
+      "id": 265,
+      "barrio": "Parque Los Molinos"
+    },
+    {
+      "id": 266,
+      "barrio": "Parque Modelo"
+    },
+    {
+      "id": 267,
+      "barrio": "Parque Montecristo"
+    },
+    {
+      "id": 268,
+      "barrio": "Parque República"
+    },
+    {
+      "id": 269,
+      "barrio": "Parque San Carlos"
+    },
+    {
+      "id": 270,
+      "barrio": "Parque San Vicente"
+    },
+    {
+      "id": 271,
+      "barrio": "Parque Sarmiento"
+    },
+    {
+      "id": 272,
+      "barrio": "Parque Tablada"
+    },
+    {
+      "id": 273,
+      "barrio": "Parque Vélez Sarsfield"
+    },
+    {
+      "id": 274,
+      "barrio": "Paso De Los Andes"
+    },
+    {
+      "id": 275,
+      "barrio": "Patria"
+    },
+    {
+      "id": 276,
+      "barrio": "Patricios"
+    },
+    {
+      "id": 277,
+      "barrio": "Patricios Este"
+    },
+    {
+      "id": 278,
+      "barrio": "Patricios Norte"
+    },
+    {
+      "id": 279,
+      "barrio": "Patricios Oeste"
+    },
+    {
+      "id": 280,
+      "barrio": "Poeta Lugones"
+    },
+    {
+      "id": 281,
+      "barrio": "Policarpio Cabral"
+    },
+    {
+      "id": 282,
+      "barrio": "Policial"
+    },
+    {
+      "id": 283,
+      "barrio": "Portal Del Jacaranda"
+    },
+    {
+      "id": 284,
+      "barrio": "Posta De Vargas"
+    },
+    {
+      "id": 285,
+      "barrio": "Primera Junta"
+    },
+    {
+      "id": 286,
+      "barrio": "Providencia"
+    },
+    {
+      "id": 287,
+      "barrio": "Puente Blanco"
+    },
+    {
+      "id": 288,
+      "barrio": "Quebrada De Las Rosas"
+    },
+    {
+      "id": 289,
+      "barrio": "Quinta Santa Ana"
+    },
+    {
+      "id": 290,
+      "barrio": "Quintas De Arguello"
+    },
+    {
+      "id": 291,
+      "barrio": "Quintas De San Jorge"
+    },
+    {
+      "id": 292,
+      "barrio": "Ramón J Carcano"
+    },
+    {
+      "id": 293,
+      "barrio": "Recreo Del Norte"
+    },
+    {
+      "id": 294,
+      "barrio": "Remedios De Escalada"
+    },
+    {
+      "id": 295,
+      "barrio": "Renacimiento"
+    },
+    {
+      "id": 296,
+      "barrio": "Rene Favaloro"
+    },
+    {
+      "id": 297,
+      "barrio": "Residencial America"
+    },
+    {
+      "id": 298,
+      "barrio": "Residencial Aragón"
+    },
+    {
+      "id": 299,
+      "barrio": "Residencial Chateau"
+    },
+    {
+      "id": 300,
+      "barrio": "Residencial Olivos"
+    },
+    {
+      "id": 301,
+      "barrio": "Residencial San Carlos"
+    },
+    {
+      "id": 302,
+      "barrio": "Residencial San Jorge"
+    },
+    {
+      "id": 303,
+      "barrio": "Residencial San Roque"
+    },
+    {
+      "id": 304,
+      "barrio": "Residencial Santa Ana"
+    },
+    {
+      "id": 305,
+      "barrio": "Residencial Santa Rosa"
+    },
+    {
+      "id": 306,
+      "barrio": "Residencial Sud"
+    },
+    {
+      "id": 307,
+      "barrio": "Residencial Vélez Sarsfield"
+    },
+    {
+      "id": 308,
+      "barrio": "Rivadavia"
+    },
+    {
+      "id": 309,
+      "barrio": "Rivera Indarte"
+    },
+    {
+      "id": 310,
+      "barrio": "Rogelio Martínez"
+    },
+    {
+      "id": 311,
+      "barrio": "Rosedal"
+    },
+    {
+      "id": 312,
+      "barrio": "Rosedal Anexo"
+    },
+    {
+      "id": 313,
+      "barrio": "Sachi"
+    },
+    {
+      "id": 314,
+      "barrio": "San Antonio"
+    },
+    {
+      "id": 315,
+      "barrio": "San Cayetano"
+    },
+    {
+      "id": 316,
+      "barrio": "San Daniel"
+    },
+    {
+      "id": 317,
+      "barrio": "San Felipe"
+    },
+    {
+      "id": 318,
+      "barrio": "San Fernando"
+    },
+    {
+      "id": 319,
+      "barrio": "San Francisco"
+    },
+    {
+      "id": 320,
+      "barrio": "San Ignacio"
+    },
+    {
+      "id": 321,
+      "barrio": "San Javier"
+    },
+    {
+      "id": 322,
+      "barrio": "San José"
+    },
+    {
+      "id": 323,
+      "barrio": "San Lorenzo"
+    },
+    {
+      "id": 324,
+      "barrio": "San Lorenzo Norte"
+    },
+    {
+      "id": 325,
+      "barrio": "San Luis De Francia"
+    },
+    {
+      "id": 326,
+      "barrio": "San Marcelo"
+    },
+    {
+      "id": 327,
+      "barrio": "San Martín"
+    },
+    {
+      "id": 328,
+      "barrio": "San Martín Anexo"
+    },
+    {
+      "id": 329,
+      "barrio": "San Martín Norte"
+    },
+    {
+      "id": 330,
+      "barrio": "San Nicolas"
+    },
+    {
+      "id": 331,
+      "barrio": "San Pablo"
+    },
+    {
+      "id": 332,
+      "barrio": "San Pedro Nolasco"
+    },
+    {
+      "id": 333,
+      "barrio": "San Rafael"
+    },
+    {
+      "id": 334,
+      "barrio": "San Ramón"
+    },
+    {
+      "id": 335,
+      "barrio": "San Salvador"
+    },
+    {
+      "id": 336,
+      "barrio": "San Vicente"
+    },
+    {
+      "id": 337,
+      "barrio": "Santa Cecilia"
+    },
+    {
+      "id": 338,
+      "barrio": "Santa Clara De Asis"
+    },
+    {
+      "id": 339,
+      "barrio": "Santa Isabel Sección 1"
+    },
+    {
+      "id": 340,
+      "barrio": "Santa Isabel Sección 2"
+    },
+    {
+      "id": 341,
+      "barrio": "Santa Isabel Sección 3"
+    },
+    {
+      "id": 342,
+      "barrio": "Santa Rita"
+    },
+    {
+      "id": 343,
+      "barrio": "Sargento Cabral"
+    },
+    {
+      "id": 344,
+      "barrio": "Sarmiento"
+    },
+    {
+      "id": 345,
+      "barrio": "SEP"
+    },
+    {
+      "id": 346,
+      "barrio": "SMATA"
+    },
+    {
+      "id": 347,
+      "barrio": "Suárez"
+    },
+    {
+      "id": 348,
+      "barrio": "Tablada Park"
+    },
+    {
+      "id": 349,
+      "barrio": "Talleres Este"
+    },
+    {
+      "id": 350,
+      "barrio": "Talleres Oeste"
+    },
+    {
+      "id": 351,
+      "barrio": "Talleres Sud"
+    },
+    {
+      "id": 352,
+      "barrio": "Tejas Del Sur"
+    },
+    {
+      "id": 353,
+      "barrio": "Teniente Benjamin Matienzo"
+    },
+    {
+      "id": 354,
+      "barrio": "Teodoro Felds"
+    },
+    {
+      "id": 355,
+      "barrio": "Tranviarios"
+    },
+    {
+      "id": 356,
+      "barrio": "UOCRA"
+    },
+    {
+      "id": 357,
+      "barrio": "Urca"
+    },
+    {
+      "id": 358,
+      "barrio": "Uritorco"
+    },
+    {
+      "id": 359,
+      "barrio": "Urquiza"
+    },
+    {
+      "id": 360,
+      "barrio": "Valle del Cerro"
+    },
+    {
+      "id": 361,
+      "barrio": "Vicor"
+    },
+    {
+      "id": 362,
+      "barrio": "Villa 4 de Agosto"
+    },
+    {
+      "id": 363,
+      "barrio": "Villa 9 de Julio"
+    },
+    {
+      "id": 364,
+      "barrio": "Villa Adela"
+    },
+    {
+      "id": 365,
+      "barrio": "Villa Alberdi"
+    },
+    {
+      "id": 366,
+      "barrio": "Villa Alicia Risler"
+    },
+    {
+      "id": 367,
+      "barrio": "Villa Allende Parque"
+    },
+    {
+      "id": 368,
+      "barrio": "Villa Argentina"
+    },
+    {
+      "id": 369,
+      "barrio": "Villa Aspacia"
+    },
+    {
+      "id": 370,
+      "barrio": "Villa Ávalos"
+    },
+    {
+      "id": 371,
+      "barrio": "Villa Azalais"
+    },
+    {
+      "id": 372,
+      "barrio": "Villa Azalais Oeste"
+    },
+    {
+      "id": 373,
+      "barrio": "Villa Belgrano"
+    },
+    {
+      "id": 374,
+      "barrio": "Villa Bustos"
+    },
+    {
+      "id": 375,
+      "barrio": "Villa Cabrera"
+    },
+    {
+      "id": 376,
+      "barrio": "Villa Centenario"
+    },
+    {
+      "id": 377,
+      "barrio": "Villa Claret"
+    },
+    {
+      "id": 378,
+      "barrio": "Villa Claudina"
+    },
+    {
+      "id": 379,
+      "barrio": "Villa Corina"
+    },
+    {
+      "id": 380,
+      "barrio": "Villa Cornu"
+    },
+    {
+      "id": 381,
+      "barrio": "Villa Coronel Olmedo"
+    },
+    {
+      "id": 382,
+      "barrio": "Villa El Libertador"
+    },
+    {
+      "id": 383,
+      "barrio": "Villa Esquiu"
+    },
+    {
+      "id": 384,
+      "barrio": "Villa Eucarística"
+    },
+    {
+      "id": 385,
+      "barrio": "Villa General Urquiza"
+    },
+    {
+      "id": 386,
+      "barrio": "Villa Gran Parque"
+    },
+    {
+      "id": 387,
+      "barrio": "Villa Mafekin"
+    },
+    {
+      "id": 388,
+      "barrio": "Villa Marta"
+    },
+    {
+      "id": 389,
+      "barrio": "Villa Martínez"
+    },
+    {
+      "id": 390,
+      "barrio": "Villa Páez"
+    },
+    {
+      "id": 391,
+      "barrio": "Villa Quisquizacate"
+    },
+    {
+      "id": 392,
+      "barrio": "Villa Retiro"
+    },
+    {
+      "id": 393,
+      "barrio": "Villa Revol"
+    },
+    {
+      "id": 394,
+      "barrio": "Villa Revol Anexo"
+    },
+    {
+      "id": 395,
+      "barrio": "Villa Rivadavia"
+    },
+    {
+      "id": 396,
+      "barrio": "Villa Rivera Indarte"
+    },
+    {
+      "id": 397,
+      "barrio": "Villa Saldan"
+    },
+    {
+      "id": 398,
+      "barrio": "Villa San Carlos"
+    },
+    {
+      "id": 399,
+      "barrio": "Villa San Isidro"
+    },
+    {
+      "id": 400,
+      "barrio": "Villa Serrana"
+    },
+    {
+      "id": 401,
+      "barrio": "Villa Siburu"
+    },
+    {
+      "id": 402,
+      "barrio": "Villa Silvano Funes"
+    },
+    {
+      "id": 403,
+      "barrio": "Villa Solferino"
+    },
+    {
+      "id": 404,
+      "barrio": "Villa Union"
+    },
+    {
+      "id": 405,
+      "barrio": "Villa Warcalde"
+    },
+    {
+      "id": 406,
+      "barrio": "Vivero Norte"
+    },
+    {
+      "id": 407,
+      "barrio": "Yapeyu"
+    },
+    {
+      "id": 408,
+      "barrio": "Yofre H"
+    },
+    {
+      "id": 409,
+      "barrio": "Yofre I"
+    },
+    {
+      "id": 410,
+      "barrio": "Yofre Norte"
+    },
+    {
+      "id": 411,
+      "barrio": "Yofre Sud"
+    },
+    {
+      "id": 412,
+      "barrio": "Zona Rural CPC Ruta 20"
+    },
+    {
+      "id": 413,
+      "barrio": "Zona Rural CPC Arguello"
+    },
+    {
+      "id": 414,
+      "barrio": "Zona Rural CPC Rancagua"
+    },
+    {
+      "id": 415,
+      "barrio": "Zona Rural CPC Colon"
+    },
+    {
+      "id": 416,
+      "barrio": "Zona Rural CPC Pueyrredon"
+    },
+    {
+      "id": 417,
+      "barrio": "Zona Rural CPC Libertador"
+    },
+    {
+      "id": 418,
+      "barrio": "Zona Rural CPC Empalme"
+    },
+    {
+      "id": 419,
+      "barrio": "Zona Rural CPC Centro América"
+    },
+    {
+      "id": 420,
+      "barrio": "Zona Rural CPC Monseñor Pablo Cabrera"
+    }
+   ]

@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\Admin\UsuariosController;
+use App\Http\Controllers\CursoController;
+use App\Models\Curso;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -29,5 +31,11 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::group(['middleware' => ['role:admin']], function() {
     Route::prefix('admin')->name('admin.')->group(function() {
         Route::resource('/usuarios', UsuariosController::class);
+    });
+});
+
+Route::group(['middleware' => ['role:secretario']], function() {
+    Route::prefix('secretaria')->name('secretaria.')->group(function() {
+        Route::resource('/cursos', CursoController::class);
     });
 });

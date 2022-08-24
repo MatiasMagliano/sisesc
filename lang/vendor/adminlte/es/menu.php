@@ -22,4 +22,6 @@ return [
     'users'                         => 'Usuarios',
     'warning'                       => 'Advertencia',
     'information'                   => 'Información',
+    'secretary'                     => 'Secretaría',
+    'Manage courses'                => 'Administrar cursos'
 ];

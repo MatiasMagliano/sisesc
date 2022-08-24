@@ -285,6 +285,20 @@ return [
                 ],
             ],
         ],
+
+        /* MENU SECRETARIO */
+        [
+            'text'  => 'secretary',
+            'icon'  => 'fas fa-graduation-cap',
+            'can'   => 'menu-secretario',
+            'submenu' => [
+                [
+                    'text'       => 'Manage courses',
+                    'icon_color' => 'orange',
+                    'route'      => 'secretaria.cursos.index'
+                ],
+            ],
+        ],
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
