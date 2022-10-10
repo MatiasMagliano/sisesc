@@ -18,6 +18,7 @@ return new class extends Migration
     {
         Schema::create('cursos', function (Blueprint $table) {
             $table->id();
+            $table->smallInteger('curso');
             $table->string('codigo_curso', 10);
             $table->string('nombre_curso', 30);
             $table->timestamps();

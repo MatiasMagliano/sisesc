@@ -1,6 +1,19 @@
 @extends('adminlte::page')
 
 @section('css')
+    <style>
+        @media (min-width: 1200px) {
+            .row>.col-lg-3:nth-child(3n+1) {
+                clear: left;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .row>.col-sm-4:nth-child(2n+1) {
+                clear: left;
+            }
+        }
+    </style>
 @endsection
 
 @section('title', 'Secretaría')
@@ -21,11 +34,24 @@
     <div class="content ml-3 mr-3">
         <x-adminlte-card title="Herramientas" header-class="text-uppercase text-bold" collapsible>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-md-2">
                     <div class="small-box">
                         <div class="inner">
-                            <h3>Cursos</h3>
-                            <a href="{{route('secretaria.cursos.create')}}" class="text-info">Agregar curso</a><br>
+                            <h4>Estudiantes</h4>
+                            <a href="#" class="text-info">Crear estudiante</a><br>
+                            <a href="#" class="text-info">Editar estudiante</a><br>
+                            <a href="#" class="text-info">Borrar estudiante</a>
+                        </div>
+                        <div class="icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="small-box">
+                        <div class="inner">
+                            <h4>Cursos</h4>
+                            <a href="{{ route('secretaria.cursos.create') }}" class="text-info">Crear curso</a><br>
                             <a href="#" class="text-info">Editar cursos</a><br>
                             <a href="#" class="text-info">Borrar cursos</a>
                         </div>
@@ -34,23 +60,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-2">
                     <div class="small-box">
                         <div class="inner">
-                            <h3>Docentes</h3>
-                            <a href="#" class="text-info">Agregar docente</a><br>
+                            <h4>Docentes</h4>
+                            <a href="#" class="text-info">Crear docente</a><br>
                             <a href="#" class="text-info">Editar docente</a><br>
-                            <a href="#" class="text-info">Borrar docente</a>
+                            <a href="#" class="text-info">Asignar docente</a>
                         </div>
                         <div class="icon">
                             <i class="fas fa-chalkboard-teacher"></i>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-2">
                     <div class="small-box">
                         <div class="inner">
-                            <h3>Personal</h3>
+                            <h4>Personal</h4>
                             <a href="#" class="text-info">Crear personal</a><br>
                             <a href="#" class="text-info">Editar personal</a><br>
                             <a href="#" class="text-info">Borrar personal</a>
@@ -60,10 +86,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-2">
                     <div class="small-box">
                         <div class="inner">
-                            <h3>Egresados</h3>
+                            <h4>Egresados</h4>
                             <a href="#" class="text-info">Crear egresados</a><br>
                             <a href="#" class="text-info">Editar egresados</a><br>
                             <a href="#" class="text-info">Imprimir egresados</a>
@@ -73,57 +99,61 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-2">
+                    <div class="small-box">
+                        <div class="inner">
+                            <h4>Sin asignar</h4>
+                            <a href="#" class="text-info">Crear egresados</a><br>
+                            <a href="#" class="text-info">Editar egresados</a><br>
+                            <a href="#" class="text-info">Imprimir egresados</a>
+                        </div>
+                        <div class="icon">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </x-adminlte-card>
 
         <hr>
-
-        <div class="accordion" id="acordionMenu">
-            @foreach ($cursos as $curso)
-                <div class="card">
-                    <div class="card-header bg-gradient-success" id="heading-{{ $curso->id }}">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link {{ $loop->first ? '' : 'collapsed' }}" type="button"
-                                data-toggle="collapse" data-target="#collapse-{{ $curso->id }}" aria-expanded="false"
-                                aria-controls="collapse-{{ $curso->id }}">
-                                <h5 style="color: white; font-weight:600;">{{ $curso->nombre_curso }}</h5>
-                            </button>
-                        </h2>
-                    </div>
-
-                    <div id="collapse-{{ $curso->id }}" class="collapse {{ $loop->first ? 'show' : '' }}"
-                        aria-labelledby="heading-{{ $curso->id }}" data-parent="#acordionMenu">
-                        <div class="card-body">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="{{ route('secretaria.cursos.show', ['curso' => $curso]) }}"
-                                        class="text-info">Ver curso</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-info">Modificar curso</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-info">Eliminar curso</a>
-                                </li>
-                            </ul>
-                            <br>
-                            <h5>Operaciones con estudiantes</h5>
-                            <hr>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="#" class="text-info">Agregar estudiantes</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-info">Modificar estudiantes</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-info">Eliminar estudiantes</a>
-                                </li>
-                            </ul>
+        {{-- LISTADO DE TODOS LOS CURSOS CON SUS LINKS --}}
+        <div>
+            <div class="row">
+                @foreach ($cursos as $curso)
+                    <div class="col-sm-4 col-lg-3">
+                        <div class="small-box bg-gradient-light">
+                            <div class="inner">
+                                <h5 class="text-bold">{{ $curso->nombre_curso }}</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="{{ route('secretaria.cursos.show', ['curso' => $curso]) }}"
+                                            class="text-info">Ver curso</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-info">Modificar curso</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-info">Eliminar curso</a>
+                                    </li>
+                                </ul>
+                                <h5>Operaciones con estudiantes</h5>
+                                <hr>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#" class="text-info">Agregar estudiantes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-info">Modificar estudiantes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-info">Eliminar estudiantes</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-            @endforeach
+                @endforeach
+            </div>
         </div>
     </div>
 @endsection

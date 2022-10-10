@@ -21,17 +21,18 @@ class EstudianteSeeder extends Seeder
      */
     public function run()
     {
-        $this->faker = Faker::create();
-        $cursos = 6;
-        $estudiantes_curso = 23;
+        $this->faker = Faker::create('es_ES');
+        $estudiantes_curso = 30;
         $division = 0;
 
-        for ($j = 1; $j <= $cursos; $j++) {
+        foreach(Curso::all() as $curso)
+        {
             for ($i = 0; $i < $estudiantes_curso; $i++) {
                 // SE CREA UN ESTUDIANTE y sus PADRES
                 $estudiante = Estudiante::factory()->create([
-                    'fecha_nacimiento'  => $this->faker->dateTimeBetween('-'. 12+$j .' years', '-'. 10+$j .' years')
+                    'fecha_nacimiento'  => $this->faker->dateTimeBetween('-'. 12+$curso->curso .' years', '-'. 10+$curso->curso .' years')
                 ]);
+                // RELACIÓN POLIMÓRFICA
                 Contacto::factory()->create([
                     'contactable_id'    => $estudiante->id,
                     'contactable_type'  => Estudiante::class,
@@ -55,7 +56,7 @@ class EstudianteSeeder extends Seeder
                 }
 
                 Matricula::create([
-                    'curso_id'      => Curso::find($j)->id,
+                    'curso_id'      => $curso->id,
                     'estudiante_id' => $estudiante->id,
                 ]);
             }
