@@ -10,7 +10,7 @@ body {
 }
 
 #showcase {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../img/landing/sierras_cordobesas_01.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url('../img/landing/la_caniada.png');
     height: 100vh;
     background-size: cover;
     background-position: center;
