@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\Admin\UsuariosController;
 use App\Http\Controllers\CursoController;
+use App\Http\Controllers\PreceptoriaController;
+use App\Http\Controllers\SecretariaController;
 use App\Models\Curso;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -34,8 +36,21 @@ Route::group(['middleware' => ['role:admin']], function() {
     });
 });
 
-Route::group(['middleware' => ['role:secretario']], function() {
+/*
+* RUTAS DE SECRETARÍA
+*/
+Route::group(['middleware' => ['role_or_permission:admin|secretario']], function() {
     Route::prefix('secretaria')->name('secretaria.')->group(function() {
-        Route::resource('/cursos', CursoController::class);
+        Route::resource('/secretaria', SecretariaController::class);
+        Route::resource('/secretaria/cursos', CursoController::class);
+    });
+});
+
+/*
+* RUTAS DE PRECEPTORÍA
+*/
+Route::group(['middleware' => ['role_or_permission:admin|preceptor']], function() {
+    Route::prefix('preceptoria')->name('preceptoria.')->group(function() {
+        Route::resource('/asistencia', PreceptoriaController::class);
     });
 });
