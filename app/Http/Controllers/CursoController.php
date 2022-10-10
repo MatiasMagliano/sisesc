@@ -9,13 +9,16 @@ class CursoController extends Controller
 {
     public function index()
     {
-        $cursos = Curso::all();
-
-        return view('secretaria.cursos.index', compact('cursos'));
+        //
     }
 
     public function show(Curso $curso)
     {
         return view('secretaria.cursos.show', compact('curso'));
+    }
+
+    public function create()
+    {
+        return view('secretaria.cursos.create');
     }
 }

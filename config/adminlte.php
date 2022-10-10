@@ -293,9 +293,9 @@ return [
             'can'   => 'menu-secretario',
             'submenu' => [
                 [
-                    'text'       => 'Manage courses',
+                    'text'       => 'Management',
                     'icon_color' => 'orange',
-                    'route'      => 'secretaria.cursos.index'
+                    'route'      => 'secretaria.secretaria.index',
                 ],
             ],
         ],

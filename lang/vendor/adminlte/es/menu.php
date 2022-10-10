@@ -23,5 +23,5 @@ return [
     'warning'                       => 'Advertencia',
     'information'                   => 'Información',
     'secretary'                     => 'Secretaría',
-    'Manage courses'                => 'Administrar cursos'
+    'Management'                    => 'Administración'
 ];

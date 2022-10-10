@@ -2,7 +2,6 @@
 
 namespace App\Providers;
 
-// use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
 
@@ -28,9 +27,7 @@ class AuthServiceProvider extends ServiceProvider
 
         // se asignan permisos implícitos para el super-usuario 'admin'
         Gate::before(function ($user, $ability) {
-            if ($user->hasRole('admin')) {
-                return true;
-            }
+            return $user->hasRole('admin') ? true : null;
         });
     }
 }

@@ -6,10 +6,15 @@
 @section('title', 'Curso ')
 
 @section('content_header')
-    <div class="navbar-header">
-        <h1>{{ $curso->nombre_curso }}</h1>
-        <hr>
+    <div class="navbar-header row">
+        <div class="col-md-8">
+            <h1>{{ $curso->nombre_curso }}</h1>
+        </div>
+        <div class="col-md-4 d-flex justify-content-md-end">
+            {{ Breadcrumbs::render('ver-curso', $curso) }}
+        </div>
     </div>
+    <hr>
 @stop
 
 @section('content')
