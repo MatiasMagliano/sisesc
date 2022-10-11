@@ -22,11 +22,11 @@ class EstudianteSeeder extends Seeder
     public function run()
     {
         $this->faker = Faker::create('es_ES');
-        $estudiantes_curso = 30;
         $division = 0;
 
         foreach(Curso::all() as $curso)
         {
+            $estudiantes_curso = rand(20, 35);
             for ($i = 0; $i < $estudiantes_curso; $i++) {
                 // SE CREA UN ESTUDIANTE y sus PADRES
                 $estudiante = Estudiante::factory()->create([

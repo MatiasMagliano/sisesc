@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\Admin\UsuariosController;
 use App\Http\Controllers\CursoController;
+use App\Http\Controllers\DocenteController;
+use App\Http\Controllers\EstudianteController;
 use App\Http\Controllers\PreceptoriaController;
 use App\Http\Controllers\SecretariaController;
 use App\Models\Curso;
@@ -41,8 +43,10 @@ Route::group(['middleware' => ['role:admin']], function() {
 */
 Route::group(['middleware' => ['role_or_permission:admin|secretario']], function() {
     Route::prefix('secretaria')->name('secretaria.')->group(function() {
-        Route::resource('/secretaria', SecretariaController::class);
-        Route::resource('/secretaria/cursos', CursoController::class);
+        Route::resource('secretaria', SecretariaController::class);
+        Route::resource('estudiantes', EstudianteController::class);
+        Route::resource('cursos', CursoController::class);
+        Route::resource('docentes', DocenteController::class);
     });
 });
 

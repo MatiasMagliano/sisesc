@@ -25,7 +25,7 @@ class DocenteFactory extends Factory
                     'dni'               => $this->faker->bothify('########'),
                     'nombres'           => $this->faker->firstName('male') .' '. $this->faker->firstName('male'),
                     'apellidos'         => $this->faker->lastName(),
-                    'fecha_nacimiento'  => $this->faker->dateTimeBetween('-18 years', '-11 years'),
+                    'fecha_nacimiento'  => $this->faker->dateTimeBetween('-48 years', '-31 years'),
                     'genero_id'         => $genero,
                 ];
                 break;
@@ -34,7 +34,7 @@ class DocenteFactory extends Factory
                     'dni'               => $this->faker->bothify('########'),
                     'nombres'           => $this->faker->firstName('female') .' '. $this->faker->firstName('female'),
                     'apellidos'         => $this->faker->lastName(),
-                    'fecha_nacimiento'  => $this->faker->dateTimeBetween('-18 years', '-11 years'),
+                    'fecha_nacimiento'  => $this->faker->dateTimeBetween('-48 years', '-31 years'),
                     'genero_id'         => $genero,
                 ];
                 break;
@@ -43,7 +43,7 @@ class DocenteFactory extends Factory
                     'dni'               => $this->faker->bothify('########'),
                     'nombres'           => $this->faker->firstName(),
                     'apellidos'         => $this->faker->lastName(),
-                    'fecha_nacimiento'  => $this->faker->dateTimeBetween('-18 years', '-11 years'),
+                    'fecha_nacimiento'  => $this->faker->dateTimeBetween('-48 years', '-31 years'),
                     'genero_id'         => $genero,
                 ];
             default: return [];

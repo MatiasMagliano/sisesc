@@ -8,4 +8,12 @@ class Genero extends Model
 {
     public $timestamps = false;
     protected $table = 'generos';
+
+    public function estudiantes()
+    {
+        return $this->hasMany(
+            Estudiante::class,
+            'genero_id'
+        );
+    }
 }

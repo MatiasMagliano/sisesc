@@ -15,4 +15,24 @@ class Materia extends Model
         'codigo_junta',
         'nombre_mteria'
     ];
+
+    public function cursos()
+    {
+        return $this->belongsToMany(
+            Curso::class,
+            CursoMateria::class,
+            'materia_id',
+            'curso_id'
+        );
+    }
+
+    public function docentes()
+    {
+        return $this->belongsToMany(
+            Docente::class,
+            PlantaDocente::class,
+            'materia_id',
+            'docente_id'
+        );
+    }
 }

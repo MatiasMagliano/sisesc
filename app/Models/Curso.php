@@ -13,9 +13,6 @@ class Curso extends Model
     protected $table = 'cursos';
 
     protected $fillable = [
-        'estudiante_id',
-        'docente_id',
-        'materia_id',
         'codigo_curso',
         'nombre_curso',
     ];
@@ -24,9 +21,29 @@ class Curso extends Model
     {
         return $this->belongsToMany(
             Estudiante::class,
-            'matriculas',
+            Matricula::class,
             'curso_id',
             'estudiante_id'
+        );
+    }
+
+    public function materias()
+    {
+        return $this->belongsToMany(
+            Materia::class,
+            CursoMateria::class,
+            'curso_id',
+            'materia_id'
+        );
+    }
+
+    public function docentes()
+    {
+        return $this->belongsToMany(
+            Docente::class,
+            CursoMateria::class,
+            'curso_id',
+            'docente_id'
         );
     }
 }

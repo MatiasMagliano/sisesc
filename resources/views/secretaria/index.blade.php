@@ -63,7 +63,7 @@
                 <div class="col-md-2">
                     <div class="small-box">
                         <div class="inner">
-                            <h4>Docentes</h4>
+                            <a href="{{route('secretaria.docentes.index')}}" class="text-reset"><h4><u>Docentes</u></h4></a>
                             <a href="#" class="text-info">Crear docente</a><br>
                             <a href="#" class="text-info">Editar docente</a><br>
                             <a href="#" class="text-info">Asignar docente</a>
@@ -121,9 +121,14 @@
             <div class="row">
                 @foreach ($cursos as $curso)
                     <div class="col-sm-4 col-lg-3">
-                        <div class="small-box bg-gradient-light">
-                            <div class="inner">
-                                <h5 class="text-bold">{{ $curso->nombre_curso }}</h5>
+                        <div class="list-group mb-3">
+                            <div class="list-group-item flex-column align-items-start bg-gradient-teal">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">{{ $curso->nombre_curso }}</h5>
+                                    <small>{{$curso->estudiantes->count()}} estudiantes</small>
+                                </div>
+                            </div>
+                            <div class="list-group-item flex-column align-items-start">
                                 <ul class="list-unstyled">
                                     <li>
                                         <a href="{{ route('secretaria.cursos.show', ['curso' => $curso]) }}"
@@ -156,6 +161,8 @@
             </div>
         </div>
     </div>
+    <br>
+    <br>
 @endsection
 
 @section('js')

@@ -9,8 +9,7 @@ class SecretariaController extends Controller
 {
     public function index()
     {
-        $cursos = Curso::all();
-
+        $cursos = Curso::withCount('estudiantes')->get();
         return view('secretaria.index', compact('cursos'));
     }
 }

@@ -24,6 +24,26 @@ class Docente extends Model
         'fecha_nacimiento' => 'date',
     ];
 
+    public function materias()
+    {
+        return $this->belongsToMany(
+            Materia::class,
+            PlantaDocente::class,
+            'docente_id',
+            'materia_id'
+        );
+    }
+
+    public function cursos()
+    {
+        return $this->belongsToMany(
+            Curso::class,
+            CursoMateria::class,
+            'docente_id',
+            'curso_id'
+        );
+    }
+
     // relación polimórfica hacia contacto
     public function contacto()
     {

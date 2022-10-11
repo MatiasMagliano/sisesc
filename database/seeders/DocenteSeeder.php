@@ -44,6 +44,7 @@ class DocenteSeeder extends Seeder
                 CursoMateria::create([
                     'materia_id'    => $materia->id,
                     'curso_id'      => $curso->id,
+                    'docente_id'    => $docente->id
                 ]);
             }
         }
