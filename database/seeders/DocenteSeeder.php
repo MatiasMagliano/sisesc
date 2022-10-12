@@ -7,7 +7,6 @@ use App\Models\Curso;
 use App\Models\CursoMateria;
 use App\Models\Docente;
 use App\Models\Materia;
-use App\Models\PlantaDocente;
 use Illuminate\Database\Seeder;
 
 class DocenteSeeder extends Seeder
@@ -32,12 +31,6 @@ class DocenteSeeder extends Seeder
                 Contacto::factory()->create([
                     'contactable_id'    => $docente->id,
                     'contactable_type'  => Docente::class,
-                ]);
-
-                // SE CREA RELACIÓN docente-materia
-                PlantaDocente::create([
-                    'docente_id'    => $docente->id,
-                    'materia_id'      => $materia->id
                 ]);
 
                 // SE CREA RELACIÓN curso-materia
