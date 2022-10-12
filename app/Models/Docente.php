@@ -28,7 +28,7 @@ class Docente extends Model
     {
         return $this->belongsToMany(
             Materia::class,
-            PlantaDocente::class,
+            CursoMateria::class,
             'docente_id',
             'materia_id'
         );
