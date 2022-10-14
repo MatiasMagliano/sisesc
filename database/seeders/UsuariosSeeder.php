@@ -25,8 +25,12 @@ class UsuariosSeeder extends Seeder
 
         // ROL DE ADMINISTRADOR - utiliza un GATE definido en AuthServiceProvider
         $role1 = Role::create(['name' => 'admin']);
-        $usuario = User::factory()->create([
-            'name'                  => 'Matías Magliano',
+        $usuario = User::create([
+            'dni'                   => '29714640',
+            'nombres'               => 'Matías José',
+            'apellidos'             => 'Magliano',
+            'fecha_nacimiento'      => '1982-28-10',
+            'genero_id'             => 1,
             'email'                 => 'matias.magliano@mi.unc.edu.ar',
             'email_verified_at'     => now(),
             'password'              => Hash::make('bxXAX4z8D3kZ62i'),
@@ -44,8 +48,12 @@ class UsuariosSeeder extends Seeder
         $role2->givePermissionTo('tomar asistencia');
 
         // se crean usuarios y roles a los que se le asignan permisos existentes
-        $usuario2 = User::factory()->create([
-            'name'                  => 'Mabel Cortez',
+        $usuario2 = User::create([
+            'dni'                   => '23558449',
+            'nombres'               => 'Mabel Laura',
+            'apellidos'             => 'Cortez',
+            'fecha_nacimiento'      => '1972-4-2',
+            'genero_id'             => 2,
             'email'                 => 'mabel.cortez@example.com',
             'email_verified_at'     => now(),
             'password'              => Hash::make('TkH2DUBvCY4rFm5'),
@@ -63,8 +71,12 @@ class UsuariosSeeder extends Seeder
         $role3->givePermissionTo('crear inscripcion');
 
         // se crean usuarios y roles a los que se le asignan permisos existentes
-        $usuario3 = User::factory()->create([
-            'name'                  => 'Martín Hoffman',
+        $usuario3 = User::create([
+            'dni'                   => '29946287',
+            'nombres'               => 'Martín Eduardo',
+            'apellidos'             => 'Hoffman',
+            'fecha_nacimiento'      => '1982-4-11',
+            'genero_id'             => 1,
             'email'                 => 'martin.hoffman@example.com',
             'email_verified_at'     => now(),
             'password'              => Hash::make('M6hGSN8pDwcGRxJ'),

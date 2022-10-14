@@ -24,7 +24,7 @@
             <h1>Secretaría</h1><br>
         </div>
         <div class="col-md-4 d-flex justify-content-md-end">
-            {{ Breadcrumbs::render('secretaria') }}
+            {{ Breadcrumbs::render() }}
         </div>
     </div>
     <hr>

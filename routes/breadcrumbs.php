@@ -1,6 +1,8 @@
 
 <?php
 
+use App\Models\Curso;
+use App\Models\Estudiante;
 use Diglactic\Breadcrumbs\Breadcrumbs;
 use Diglactic\Breadcrumbs\Generator as BreadcrumbTrail;
 
@@ -11,24 +13,36 @@ Breadcrumbs::for('home', function (BreadcrumbTrail $trail) {
 });
 
 // Secretaria
-Breadcrumbs::for('secretaria', function (BreadcrumbTrail $trail) {
+Breadcrumbs::for('secretaria.secretaria.index', function (BreadcrumbTrail $trail) {
     $trail->parent('home');
     $trail->push('Secretaría', route('secretaria.secretaria.index'));
 });
 
 // Secretaria->docentes
-Breadcrumbs::for('docentes', function (BreadcrumbTrail $trail) {
-    $trail->parent('secretaria');
+Breadcrumbs::for('secretaria.docentes.index', function (BreadcrumbTrail $trail) {
+    $trail->parent('secretaria.secretaria.index');
     $trail->push('Docentes', route('secretaria.docentes.index'));
 });
 
+// Secretaria->estudiantes
+Breadcrumbs::for('secretaria.estudiantes.index', function (BreadcrumbTrail $trail) {
+    $trail->parent('secretaria.secretaria.index');
+    $trail->push('Estudiantes', route('secretaria.estudiantes.index'));
+});
+// Secretaria -> Ver curso -> Ver expediente
+Breadcrumbs::for('secretaria.estudiantes.show', function (BreadcrumbTrail $trail, Estudiante $estudiante) {
+    $trail->parent('secretaria.estudiantes.index');
+    $trail->push('Ver expediente', route('secretaria.estudiantes.show', ['estudiante' => $estudiante]));
+});
+
 // Secretaria->Crear curso
-Breadcrumbs::for('crear-curso', function (BreadcrumbTrail $trail) {
-    $trail->parent('secretaria');
+Breadcrumbs::for('secretaria.cursos.create', function (BreadcrumbTrail $trail) {
+    $trail->parent('secretaria.secretaria.index');
     $trail->push('Crear curso', route('secretaria.cursos.create'));
 });
-// Secretaria->Ver curso
-Breadcrumbs::for('ver-curso', function (BreadcrumbTrail $trail, $curso) {
-    $trail->parent('secretaria');
-    $trail->push('Ver curso', route('secretaria.cursos.show', $curso));
+
+// Secretaria -> Ver curso
+Breadcrumbs::for('secretaria.cursos.show', function (BreadcrumbTrail $trail, Curso $curso) {
+    $trail->parent('secretaria.secretaria.index');
+    $trail->push('Ver curso', route('secretaria.cursos.show', ['curso' => $curso]));
 });

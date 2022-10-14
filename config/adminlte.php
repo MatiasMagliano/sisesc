@@ -354,7 +354,7 @@ return [
         /* MENU SECRETARIO */
         [
             'text'  => 'secretary',
-            'icon'  => 'fas fa-graduation-cap',
+            'icon'  => 'fas fa-desktop',
             'can'   => 'menu-secretario',
             'submenu' => [
                 [
