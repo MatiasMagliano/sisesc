@@ -11,7 +11,7 @@
             <h1>Administración de Docentes</h1>
         </div>
         <div class="col-md-4 d-flex justify-content-md-end">
-            {{ Breadcrumbs::render('docentes') }}
+            {{ Breadcrumbs::render('docentes.index') }}
         </div>
     </div>
     <hr>
@@ -40,7 +40,7 @@
                                     {{ $materia->nombre_materia }}
                                     <ul>
                                         @foreach ($docente->cursos as $curso)
-                                            <li><a href="{{ route('secretaria.cursos.show', ['curso' => $curso]) }}">
+                                            <li><a href="{{ route('cursos.show', ['curso' => $curso]) }}">
                                                     {{ $curso->nombre_curso }}</a></li>
                                         @endforeach
                                     </ul>
@@ -58,11 +58,12 @@
 @endsection
 
 @section('js')
-<script>
-    $(document).ready(function() {
-        $('#tabla-docentes').DataTable({});
-    });
-</script>
+    <script type="text/javascript" src="{{ asset('js/datatables-spanish.js') }}" defer></script>
+    <script>
+        $(document).ready(function() {
+            $('#tabla-docentes').DataTable({});
+        });
+    </script>
 @endsection
 
 @section('footer')

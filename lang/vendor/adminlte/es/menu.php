@@ -18,10 +18,10 @@ return [
     'labels'                        => 'ETIQUETAS',
     'important'                     => 'Importante',
     'roles'                         => 'Roles',
-    'students'                      => 'Estudiantes',
     'users'                         => 'Usuarios',
     'warning'                       => 'Advertencia',
     'information'                   => 'Información',
     'secretary'                     => 'Secretaría',
-    'Management'                    => 'Administración'
+    'management'                    => 'Administración',
+    'students'                      => 'Estudiantes'
 ];

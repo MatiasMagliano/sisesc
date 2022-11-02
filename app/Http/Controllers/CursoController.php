@@ -9,16 +9,17 @@ class CursoController extends Controller
 {
     public function index()
     {
-        //
+        $cursos = Curso::withCount('estudiantes')->get();
+        return view('cursos.index', compact('cursos'));
     }
 
     public function show(Curso $curso)
     {
-        return view('secretaria.cursos.show', ['curso' => $curso]);
+        return view('cursos.show', ['curso' => $curso]);
     }
 
     public function create()
     {
-        return view('secretaria.cursos.create');
+        return view('cursos.create');
     }
 }

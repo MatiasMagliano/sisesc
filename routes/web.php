@@ -42,12 +42,22 @@ Route::group(['middleware' => ['role:admin']], function() {
 * RUTAS DE SECRETARÍA
 */
 Route::group(['middleware' => ['role_or_permission:admin|secretario']], function() {
-    Route::prefix('secretaria')->name('secretaria.')->group(function() {
-        Route::resource('secretaria', SecretariaController::class);
-        Route::resource('estudiantes', EstudianteController::class);
-        Route::resource('cursos', CursoController::class);
-        Route::resource('docentes', DocenteController::class);
-    });
+    Route::resource('secretaria', SecretariaController::class);
+});
+
+/*
+* RUTAS DE CURSOS
+*/
+Route::group(['middleware' => ['role_or_permission:admin|secretario|preceptor']], function() {
+    Route::resource('cursos', CursoController::class);
+});
+
+Route::group(['middleware' => ['role_or_permission:admin|secretario|preceptor']], function() {
+    Route::resource('estudiantes', EstudianteController::class);
+});
+
+Route::group(['middleware' => ['role_or_permission:admin|secretario|preceptor']], function() {
+    Route::resource('docentes', DocenteController::class);
 });
 
 /*
@@ -55,6 +65,7 @@ Route::group(['middleware' => ['role_or_permission:admin|secretario']], function
 */
 Route::group(['middleware' => ['role_or_permission:admin|preceptor']], function() {
     Route::prefix('preceptoria')->name('preceptoria.')->group(function() {
-        Route::resource('/asistencia', PreceptoriaController::class);
+        Route::get('asistencia', [PreceptoriaController::class, 'tomarAsistencia'])->name('asistencia');
+        Route::resource('proceptoria', PreceptoriaController::class);
     });
 });

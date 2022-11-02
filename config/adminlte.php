@@ -340,13 +340,19 @@ return [
             'can'   => 'menu-preceptor',
             'submenu' => [
                 [
+                    'text'       => 'courses',
+                    'icon_color' => 'cyan',
+                    'route'      => 'preceptoria.index',
+                ],
+                [
                     'text'       => 'students',
                     'icon_color' => 'cyan',
                 ],
                 [
-                    'text'       => 'asistencia',
+                    'text'       => 'attendance',
                     'icon_color' => 'cyan',
-                    'can'        => 'tomar asistencia'
+                    'can'        => 'tomar asistencia',
+                    'route'      => 'preceptoria.asistencia',
                 ],
             ],
         ],
@@ -358,9 +364,14 @@ return [
             'can'   => 'menu-secretario',
             'submenu' => [
                 [
-                    'text'       => 'Management',
+                    'text'       => 'management',
                     'icon_color' => 'orange',
-                    'route'      => 'secretaria.secretaria.index',
+                    'route'      => 'secretaria.index',
+                ],
+                [
+                    'text'       => 'students',
+                    'icon_color' => 'orange',
+                    'route'      => 'estudiantes.index',
                 ],
             ],
         ],

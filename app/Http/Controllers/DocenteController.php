@@ -10,6 +10,6 @@ class DocenteController extends Controller
     public function index()
     {
         $docentes = Docente::all();
-        return view('secretaria.docentes.index', compact('docentes'));
+        return view('docentes.index', compact('docentes'));
     }
 }

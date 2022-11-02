@@ -11,7 +11,7 @@
             <h1>{{ $curso->nombre_curso }}</h1>
         </div>
         <div class="col-md-4 d-flex justify-content-md-end">
-            {{ Breadcrumbs::render('secretaria.cursos.show', $curso) }}
+            {{ Breadcrumbs::render('cursos.show', $curso) }}
         </div>
     </div>
     <hr>
@@ -33,9 +33,10 @@
             <div class="tab-pane fade show active" id="estudiantes" role="tabpanel" aria-labelledby="estudiantes-tab">
                 <table class="table table-bordered bg-gradient-light elevation-1">
                     <thead>
+                        <th></th>
                         <th>DNI</th>
-                        <th>Género</th>
                         <th>Nombre y apellido</th>
+                        <th>Género</th>
                         <th>Edad</th>
                         <th>contacto</th>
                         <th></th>
@@ -43,14 +44,19 @@
                     <tbody>
                         @foreach ($curso->estudiantes as $estudiante)
                             <tr>
-                                <td>{{ $estudiante->dni }}</td>
-                                <td>{{ $estudiante->genero->genero }}</td>
-                                <td>{{ $estudiante->nombres }} {{ $estudiante->apellidos }}</td>
-                                <td>{{ Carbon\Carbon::parse($estudiante->fecha_nacimiento)->diff(Carbon\Carbon::now())->y }}
+                                <td class="text-center align-middle">{{$loop->iteration}}</td>
+                                <td class="text-center align-middle">{{ $estudiante->dni }}</td>
+                                <td class="align-middle">{{ $estudiante->nombres }} {{ $estudiante->apellidos }}</td>
+                                <td class="align-middle">{{ $estudiante->genero->genero }}</td>
+                                <td class="text-center align-middle">
+                                    {{ Carbon\Carbon::parse($estudiante->fecha_nacimiento)->diff(Carbon\Carbon::now())->y }}
                                 </td>
-                                <td>{{ $estudiante->contacto->correo_e }}</td>
+                                <td class="align-middle">
+                                    Tel: {{ $estudiante->contacto->telefono }} <br>
+                                    E-mail: {{ $estudiante->contacto->correo_e }}
+                                </td>
                                 <td class="text-middle text-center">
-                                    <a href="{{ route('secretaria.estudiantes.show', ['estudiante' => $estudiante]) }}"
+                                    <a href="{{ route('estudiantes.show', ['estudiante' => $estudiante]) }}"
                                         class="btn btn-outline-info" data-toggle="tooltip" data-placement="bottom" title="Ver expediente">
                                         <i class="fas fa-search"></i>
                                     </a>
@@ -67,8 +73,8 @@
             <div class="tab-pane fade" id="docentes" role="tabpanel" aria-labelledby="docentes-tab">
                 <table class="table table-bordered bg-gradient-light elevation-1">
                     <thead>
-                        <th>MATERIA</th>
                         <th>DNI</th>
+                        <th>MATERIA</th>
                         <th>Nombre y apellido</th>
                         <th>Contacto</th>
                         <th></th>
@@ -76,15 +82,15 @@
                     <tbody>
                         @foreach ($curso->docentes as $docente)
                             <tr>
-                                <td>{{ $docente->materias[0]->nombre_materia }}</td>
-                                <td>{{ $docente->dni }}</td>
-                                <td>{{ $docente->nombres }} {{ $docente->apellidos }}</td>
-                                <td>
-                                    E-mail: {{ $docente->contacto->correo_e }} <br>
-                                    Tel.: {{ $docente->contacto->telefono }}
+                                <td class="text-center align-middle">{{ $docente->dni }}</td>
+                                <td class="align-middle">{{ $docente->materias[0]->nombre_materia }}</td>
+                                <td class="align-middle">{{ $docente->nombres }} {{ $docente->apellidos }}</td>
+                                <td class="align-middle">
+                                    Tel: {{ $docente->contacto->telefono }} <br>
+                                    E-mail: {{ $docente->contacto->correo_e }}
                                 </td>
-                                <td>
-
+                                <td class="text-center align-middle">
+                                    ACCIONES
                                 </td>
                             </tr>
                         @endforeach

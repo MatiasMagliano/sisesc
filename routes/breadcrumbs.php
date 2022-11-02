@@ -13,36 +13,43 @@ Breadcrumbs::for('home', function (BreadcrumbTrail $trail) {
 });
 
 // Secretaria
-Breadcrumbs::for('secretaria.secretaria.index', function (BreadcrumbTrail $trail) {
+Breadcrumbs::for('secretaria.index', function (BreadcrumbTrail $trail) {
     $trail->parent('home');
-    $trail->push('Secretaría', route('secretaria.secretaria.index'));
+    $trail->push('Secretaría', route('secretaria.index'));
 });
 
 // Secretaria->docentes
-Breadcrumbs::for('secretaria.docentes.index', function (BreadcrumbTrail $trail) {
-    $trail->parent('secretaria.secretaria.index');
-    $trail->push('Docentes', route('secretaria.docentes.index'));
+Breadcrumbs::for('docentes.index', function (BreadcrumbTrail $trail) {
+    $trail->parent('secretaria.index');
+    $trail->push('Docentes', route('docentes.index'));
 });
 
 // Secretaria->estudiantes
-Breadcrumbs::for('secretaria.estudiantes.index', function (BreadcrumbTrail $trail) {
-    $trail->parent('secretaria.secretaria.index');
-    $trail->push('Estudiantes', route('secretaria.estudiantes.index'));
+Breadcrumbs::for('estudiantes.index', function (BreadcrumbTrail $trail) {
+    $trail->parent('secretaria.index');
+    $trail->push('Estudiantes', route('estudiantes.index'));
 });
 // Secretaria -> Ver curso -> Ver expediente
-Breadcrumbs::for('secretaria.estudiantes.show', function (BreadcrumbTrail $trail, Estudiante $estudiante) {
-    $trail->parent('secretaria.estudiantes.index');
-    $trail->push('Ver expediente', route('secretaria.estudiantes.show', ['estudiante' => $estudiante]));
+Breadcrumbs::for('estudiantes.show', function (BreadcrumbTrail $trail, Estudiante $estudiante) {
+    $trail->parent('estudiantes.index');
+    $trail->push('Ver expediente', route('estudiantes.show', ['estudiante' => $estudiante]));
 });
 
 // Secretaria->Crear curso
-Breadcrumbs::for('secretaria.cursos.create', function (BreadcrumbTrail $trail) {
-    $trail->parent('secretaria.secretaria.index');
-    $trail->push('Crear curso', route('secretaria.cursos.create'));
+Breadcrumbs::for('cursos.create', function (BreadcrumbTrail $trail) {
+    $trail->parent('secretaria.index');
+    $trail->push('Crear curso', route('cursos.create'));
 });
 
 // Secretaria -> Ver curso
-Breadcrumbs::for('secretaria.cursos.show', function (BreadcrumbTrail $trail, Curso $curso) {
-    $trail->parent('secretaria.secretaria.index');
-    $trail->push('Ver curso', route('secretaria.cursos.show', ['curso' => $curso]));
+Breadcrumbs::for('cursos.show', function (BreadcrumbTrail $trail, Curso $curso) {
+    $trail->parent('secretaria.index');
+    $trail->push('Ver curso', route('cursos.show', ['curso' => $curso]));
+});
+
+// PROCEPTORIA -> tomar asistencia
+
+Breadcrumbs::for('preceptoria.asistencia', function (BreadcrumbTrail $trail) {
+    $trail->parent('home');
+    $trail->push('Tomar asistencia', route('preceptoria.asistencia'));
 });
