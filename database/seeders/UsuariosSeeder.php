@@ -24,7 +24,7 @@ class UsuariosSeeder extends Seeder
         app()[PermissionRegistrar::class]->forgetCachedPermissions();
 
         // ROL DE ADMINISTRADOR - utiliza un GATE definido en AuthServiceProvider
-        $role1 = Role::create(['name' => 'admin']);
+        $rol_admin = Role::create(['name' => 'admin']);
         $usuario = User::create([
             'dni'                   => '29714640',
             'nombres'               => 'Matías José',
@@ -36,17 +36,13 @@ class UsuariosSeeder extends Seeder
             'password'              => Hash::make('bxXAX4z8D3kZ62i'),
             'remember_token'        => Str::random(10),
         ]);
-        $usuario->assignRole($role1);
+        $usuario->assignRole($rol_admin);
 
 
         // ROL DE PRECEPTOR
         Permission::create(['name' => 'menu-preceptor']);
-        Permission::create(['name' => 'tomar asistencia']);
-
-        $role2 = Role::create(['name' => 'preceptor']);
-        $role2->givePermissionTo('menu-preceptor');
-        $role2->givePermissionTo('tomar asistencia');
-
+        $rol_preceptor = Role::create(['name' => 'preceptor']);
+        $rol_preceptor->givePermissionTo('menu-preceptor');
         // se crean usuarios y roles a los que se le asignan permisos existentes
         $usuario2 = User::create([
             'dni'                   => '23558449',
@@ -59,16 +55,13 @@ class UsuariosSeeder extends Seeder
             'password'              => Hash::make('TkH2DUBvCY4rFm5'),
             'remember_token'        => Str::random(10),
         ]);
-        $usuario2->assignRole($role2);
+        $usuario2->assignRole($rol_preceptor);
 
 
         // ROL DE SECRETARIO
         Permission::create(['name' => 'menu-secretario']);
-        Permission::create(['name' => 'crear inscripcion']);
-
-        $role3 = Role::create(['name' => 'secretario']);
-        $role3->givePermissionTo('menu-secretario');
-        $role3->givePermissionTo('crear inscripcion');
+        $rol_secretario = Role::create(['name' => 'secretario']);
+        $rol_secretario->givePermissionTo('menu-secretario');
 
         // se crean usuarios y roles a los que se le asignan permisos existentes
         $usuario3 = User::create([
@@ -82,6 +75,8 @@ class UsuariosSeeder extends Seeder
             'password'              => Hash::make('M6hGSN8pDwcGRxJ'),
             'remember_token'        => Str::random(10),
         ]);
-        $usuario3->assignRole($role3);
+        $usuario3->assignRole($rol_secretario);
+
+        
     }
 }
