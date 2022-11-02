@@ -25,7 +25,15 @@
 @section('title', 'Usuarios')
 
 @section('content_header')
-    <h1>Administración de Usuarios</h1>
+    <div class="navbar-header row">
+        <div class="col-md-8">
+            <h1>Perfil de usuario</h1>
+        </div>
+        <div class="col-md-4 d-flex justify-content-md-end">
+            {{-- {{ Breadcrumbs::render('estudiantes.show', $estudiante) }} --}}
+        </div>
+    </div>
+    <hr>
 @stop
 
 @section('content')

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class UsuariosController extends Controller
 {
@@ -15,7 +16,7 @@ class UsuariosController extends Controller
      */
     public function index()
     {
-        $usuarios = User::orderBy('name','DESC')->paginate(5);
+        $usuarios = User::orderBy('nombres', 'DESC')->paginate(5);
         return view('admin.usuarios.index', compact('usuarios'));
     }
 
@@ -46,9 +47,9 @@ class UsuariosController extends Controller
      * @param  \App\Models\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function show(User $user)
+    public function show(User $usuario)
     {
-        //
+        return view('usuarios.perfil', compact('usuario'));
     }
 
     /**
@@ -83,5 +84,11 @@ class UsuariosController extends Controller
     public function destroy(User $user)
     {
         //
+    }
+
+    public function profile()
+    {
+        $usuario = Auth::user();
+        return view('usuarios.perfil')->with('usuario', $usuario);
     }
 }

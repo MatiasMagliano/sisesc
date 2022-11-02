@@ -340,7 +340,7 @@ return [
             'can'   => 'menu-preceptor',
             'submenu' => [
                 [
-                    'text'       => 'courses',
+                    'text'       => 'management',
                     'icon_color' => 'cyan',
                     'route'      => 'preceptoria.index',
                 ],
@@ -377,9 +377,9 @@ return [
         ],
         ['header' => 'account_settings'],
         [
-            'text' => 'profile',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
+            'text'  => 'profile',
+            'icon'  => 'fas fa-fw fa-user',
+            'route' => 'perfil'
         ],
         [
             'text' => 'change_password',

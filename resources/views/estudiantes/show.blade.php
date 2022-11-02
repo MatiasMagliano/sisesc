@@ -11,7 +11,7 @@
             <h1>Expediente de <span class="uppercase">{{$estudiante->apellidos}}</span>, {{$estudiante->nombres}}</h1><br>
         </div>
         <div class="col-md-4 d-flex justify-content-md-end">
-            {{ Breadcrumbs::render('secretaria.estudiantes.show', $estudiante) }}
+            {{ Breadcrumbs::render('estudiantes.show', $estudiante) }}
         </div>
     </div>
     <hr>
