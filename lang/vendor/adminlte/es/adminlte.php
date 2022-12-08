@@ -4,6 +4,7 @@ return [
 
     'full_name'                   => 'Nombre completo',
     'email'                       => 'Email',
+    'username'                    => 'Nombre de usuario',
     'password'                    => 'Contraseña',
     'retype_password'             => 'Confirmar la contraseña',
     'remember_me'                 => 'Recordarme',

@@ -64,8 +64,6 @@ Route::group(['middleware' => ['role_or_permission:admin|secretario|preceptor']]
 * RUTAS DE PRECEPTORÍA
 */
 Route::group(['middleware' => ['role_or_permission:admin|preceptor']], function() {
-    Route::prefix('preceptoria')->name('preceptoria.')->group(function() {
-        Route::get('asistencia', [PreceptoriaController::class, 'tomarAsistencia'])->name('asistencia');
-        Route::resource('proceptoria', PreceptoriaController::class);
-    });
+    Route::get('asistencia', [PreceptoriaController::class, 'tomarAsistencia'])->name('preceptoria.asistencia');
+    Route::resource('preceptoria', PreceptoriaController::class);
 });

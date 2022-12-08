@@ -12,7 +12,9 @@ use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
-    use HasApiTokens, Notifiable, HasRoles, SoftDeletes;
+    use HasFactory, HasApiTokens, Notifiable, HasRoles, SoftDeletes;
+
+    protected $table = 'users';
 
     protected $fillable = [
         'dni',

@@ -20,7 +20,7 @@ return new class extends Migration
             $table->integer('miembros');
             $table->timestamps();
 
-            $table->foreign('jefe_id')->references('id')->on('padres');
+            $table->foreign('jefe_id')->references('id')->on('users');
         });
     }
 

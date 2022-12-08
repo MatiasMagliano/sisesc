@@ -3,10 +3,9 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Estudiante extends Model
+class Estudiante extends User
 {
     use HasFactory, SoftDeletes;
 
@@ -41,6 +40,6 @@ class Estudiante extends Model
     // relación polimórfica hacia contacto
     public function contacto()
     {
-        return $this->morphOne(Contacto::class, 'contactable');
+        return $this->hasOne(Contacto::class, 'user_id');
     }
 }

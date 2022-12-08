@@ -18,9 +18,11 @@ return new class extends Migration
         Schema::create('matriculas', function (Blueprint $table) {
             $table->id();
             $table->foreignIdFor(Curso::class)->constrained()->onDelete('cascade');
-            $table->foreignIdFor(Estudiante::class)->constrained()->onDelete('cascade');
+            $table->unsignedBigInteger('estudiante_id');
             $table->timestamps();
             $table->softDeletes();
+
+            $table->foreign('estudiante_id')->references('id')->on('users');
         });
     }
 
